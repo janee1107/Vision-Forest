@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#FBF8F1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="願景之森">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <title>願景之森 Vision Forest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700;800;900&family=Zen+Kaku+Gothic+New:wght@500;700;900&display=swap" rel="stylesheet">
+
+  <style>
+*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:Zen Kaku Gothic New,M PLUS Rounded\ 1c,system-ui,sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.pointer-events-none{pointer-events:none}.pointer-events-auto{pointer-events:auto}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0}.inset-x-4{left:1rem;right:1rem}.bottom-\[28px\]{bottom:28px}.bottom-\[42px\]{bottom:42px}.left-1\/2{left:50%}.left-4{left:1rem}.right-5{right:1.25rem}.top-0{top:0}.top-16{top:4rem}.z-0{z-index:0}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.z-\[60\]{z-index:60}.-mx-2{margin-left:-.5rem;margin-right:-.5rem}.mx-5{margin-left:1.25rem;margin-right:1.25rem}.-mt-1{margin-top:-.25rem}.mb-1{margin-bottom:.25rem}.mb-1\.5{margin-bottom:.375rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.ml-1{margin-left:.25rem}.ml-1\.5{margin-left:.375rem}.ml-4{margin-left:1rem}.mr-1{margin-right:.25rem}.mr-1\.5{margin-right:.375rem}.mt-0\.5{margin-top:.125rem}.mt-1{margin-top:.25rem}.mt-1\.5{margin-top:.375rem}.mt-2{margin-top:.5rem}.mt-2\.5{margin-top:.625rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-1\.5{height:.375rem}.h-10{height:2.5rem}.h-11{height:2.75rem}.h-2{height:.5rem}.h-2\.5{height:.625rem}.h-3{height:.75rem}.h-3\.5{height:.875rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-8{height:2rem}.h-9{height:2.25rem}.h-\[18px\]{height:18px}.h-\[52px\]{height:52px}.h-\[66px\]{height:66px}.h-\[74px\]{height:74px}.h-auto{height:auto}.h-full{height:100%}.max-h-\[34vh\]{max-height:34vh}.max-h-\[85vh\]{max-height:85vh}.max-h-\[88vh\]{max-height:88vh}.max-h-\[90vh\]{max-height:90vh}.max-h-\[92vh\]{max-height:92vh}.min-h-screen{min-height:100vh}.w-10{width:2.5rem}.w-11{width:2.75rem}.w-12{width:3rem}.w-2{width:.5rem}.w-2\.5{width:.625rem}.w-24{width:6rem}.w-3{width:.75rem}.w-3\.5{width:.875rem}.w-4{width:1rem}.w-5{width:1.25rem}.w-8{width:2rem}.w-9{width:2.25rem}.w-\[18px\]{width:18px}.w-\[52px\]{width:52px}.w-\[86px\]{width:86px}.w-\[calc\(100\%-1rem\)\]{width:calc(100% - 1rem)}.w-full{width:100%}.min-w-0{min-width:0}.max-w-\[430px\]{max-width:430px}.max-w-full{max-width:100%}.flex-1{flex:1 1 0%}.flex-shrink{flex-shrink:1}.flex-shrink-0{flex-shrink:0}.translate-y-full{--tw-translate-y:100%}.transform,.translate-y-full{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.resize-none{resize:none}.list-none{list-style-type:none}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.items-baseline{align-items:baseline}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:.25rem}.gap-1\.5{gap:.375rem}.gap-2{gap:.5rem}.gap-2\.5{gap:.625rem}.gap-3{gap:.75rem}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.25rem*var(--tw-space-y-reverse))}.space-y-1\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.375rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.375rem*var(--tw-space-y-reverse))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem*var(--tw-space-y-reverse))}.space-y-2\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.625rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.625rem*var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem*var(--tw-space-y-reverse))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem*var(--tw-space-y-reverse))}.space-y-5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.25rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.25rem*var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-visible{overflow:visible}.overflow-y-auto{overflow-y:auto}.truncate{overflow:hidden;text-overflow:ellipsis}.truncate,.whitespace-nowrap{white-space:nowrap}.whitespace-pre-wrap{white-space:pre-wrap}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-md{border-radius:.375rem}.rounded-xl{border-radius:.75rem}.rounded-t-\[36px\]{border-top-left-radius:36px;border-top-right-radius:36px}.border{border-width:1px}.border-2{border-width:2px}.border-\[1\.5px\]{border-width:1.5px}.border-b{border-bottom-width:1px}.border-l{border-left-width:1px}.border-t-2{border-top-width:2px}.border-dashed{border-style:dashed}.border-ghibli-fox\/25{border-color:rgba(232,137,74,.25)}.border-ghibli-fox\/30{border-color:rgba(232,137,74,.3)}.border-ghibli-fox\/40{border-color:rgba(232,137,74,.4)}.border-ghibli-moss{--tw-border-opacity:1;border-color:rgb(62 92 67/var(--tw-border-opacity,1))}.border-ghibli-moss\/20{border-color:rgba(62,92,67,.2)}.border-ghibli-moss\/30{border-color:rgba(62,92,67,.3)}.border-ghibli-moss\/40{border-color:rgba(62,92,67,.4)}.border-ghibli-sun{--tw-border-opacity:1;border-color:rgb(230 166 62/var(--tw-border-opacity,1))}.border-ghibli-sun\/20{border-color:rgba(230,166,62,.2)}.border-ghibli-sun\/25{border-color:rgba(230,166,62,.25)}.border-ghibli-sun\/30{border-color:rgba(230,166,62,.3)}.border-ghibli-sun\/40{border-color:rgba(230,166,62,.4)}.border-ghibli-sun\/50{border-color:rgba(230,166,62,.5)}.border-ghibli-terracotta\/30{border-color:rgba(200,106,75,.3)}.border-ghibli-wood\/10{border-color:rgba(74,59,50,.1)}.border-ghibli-wood\/15{border-color:rgba(74,59,50,.15)}.border-ghibli-wood\/20{border-color:rgba(74,59,50,.2)}.border-ghibli-wood\/25{border-color:rgba(74,59,50,.25)}.border-ghibli-wood\/30{border-color:rgba(74,59,50,.3)}.border-ghibli-wood\/40{border-color:rgba(74,59,50,.4)}.border-transparent{border-color:transparent}.border-white\/25{border-color:hsla(0,0%,100%,.25)}.bg-\[\#EADDC9\]{--tw-bg-opacity:1;background-color:rgb(234 221 201/var(--tw-bg-opacity,1))}.bg-\[\#FBEFD6\]{--tw-bg-opacity:1;background-color:rgb(251 239 214/var(--tw-bg-opacity,1))}.bg-ghibli-cream{--tw-bg-opacity:1;background-color:rgb(251 248 241/var(--tw-bg-opacity,1))}.bg-ghibli-cream\/80{background-color:hsla(42,56%,96%,.8)}.bg-ghibli-fox{--tw-bg-opacity:1;background-color:rgb(232 137 74/var(--tw-bg-opacity,1))}.bg-ghibli-foxSoft{--tw-bg-opacity:1;background-color:rgb(253 235 221/var(--tw-bg-opacity,1))}.bg-ghibli-foxSoft\/40{background-color:hsla(26,89%,93%,.4)}.bg-ghibli-foxSoft\/60{background-color:hsla(26,89%,93%,.6)}.bg-ghibli-moss{--tw-bg-opacity:1;background-color:rgb(62 92 67/var(--tw-bg-opacity,1))}.bg-ghibli-paleLeaf{--tw-bg-opacity:1;background-color:rgb(237 244 236/var(--tw-bg-opacity,1))}.bg-ghibli-paleLeaf\/40{background-color:rgba(237,244,236,.4)}.bg-ghibli-paleLeaf\/50{background-color:rgba(237,244,236,.5)}.bg-ghibli-sun{--tw-bg-opacity:1;background-color:rgb(230 166 62/var(--tw-bg-opacity,1))}.bg-ghibli-sunSoft{--tw-bg-opacity:1;background-color:rgb(253 243 223/var(--tw-bg-opacity,1))}.bg-ghibli-sunSoft\/50{background-color:hsla(40,88%,93%,.5)}.bg-ghibli-sunSoft\/60{background-color:hsla(40,88%,93%,.6)}.bg-ghibli-sunSoft\/70{background-color:hsla(40,88%,93%,.7)}.bg-ghibli-terracotta{--tw-bg-opacity:1;background-color:rgb(200 106 75/var(--tw-bg-opacity,1))}.bg-ghibli-woodDark{--tw-bg-opacity:1;background-color:rgb(44 34 28/var(--tw-bg-opacity,1))}.bg-ghibli-woodDark\/60{background-color:rgba(44,34,28,.6)}.bg-transparent{background-color:transparent}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.bg-white\/50{background-color:hsla(0,0%,100%,.5)}.bg-white\/60{background-color:hsla(0,0%,100%,.6)}.bg-white\/70{background-color:hsla(0,0%,100%,.7)}.bg-white\/80{background-color:hsla(0,0%,100%,.8)}.bg-white\/90{background-color:hsla(0,0%,100%,.9)}.bg-white\/95{background-color:hsla(0,0%,100%,.95)}.fill-ghibli-sun{fill:#e6a63e}.p-0{padding:0}.p-0\.5{padding:.125rem}.p-1{padding:.25rem}.p-2\.5{padding:.625rem}.p-3{padding:.75rem}.p-3\.5{padding:.875rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.px-0\.5{padding-left:.125rem;padding-right:.125rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-1\.5{padding-left:.375rem;padding-right:.375rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-2\.5{padding-left:.625rem;padding-right:.625rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-3\.5{padding-left:.875rem;padding-right:.875rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-1\.5{padding-top:.375rem;padding-bottom:.375rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-3\.5{padding-top:.875rem;padding-bottom:.875rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.pb-1{padding-bottom:.25rem}.pb-3{padding-bottom:.75rem}.pb-3\.5{padding-bottom:.875rem}.pb-36{padding-bottom:9rem}.pl-2\.5{padding-left:.625rem}.pr-1{padding-right:.25rem}.pt-0{padding-top:0}.pt-1{padding-top:.25rem}.pt-6{padding-top:1.5rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.align-middle{vertical-align:middle}.font-round{font-family:M PLUS Rounded\ 1c,Zen Kaku Gothic New,sans-serif}.text-2xl{font-size:1.5rem;line-height:2rem}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-\[12px\]{font-size:12px}.text-\[13px\]{font-size:13px}.text-\[14px\]{font-size:14px}.text-\[15px\]{font-size:15px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xs{font-size:.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.uppercase{text-transform:uppercase}.leading-none{line-height:1}.leading-relaxed{line-height:1.625}.leading-snug{line-height:1.375}.tracking-tight{letter-spacing:-.025em}.tracking-wider{letter-spacing:.05em}.tracking-widest{letter-spacing:.1em}.text-ghibli-fox{--tw-text-opacity:1;color:rgb(232 137 74/var(--tw-text-opacity,1))}.text-ghibli-moss{--tw-text-opacity:1;color:rgb(62 92 67/var(--tw-text-opacity,1))}.text-ghibli-sun{--tw-text-opacity:1;color:rgb(230 166 62/var(--tw-text-opacity,1))}.text-ghibli-terracotta{--tw-text-opacity:1;color:rgb(200 106 75/var(--tw-text-opacity,1))}.text-ghibli-wood{--tw-text-opacity:1;color:rgb(74 59 50/var(--tw-text-opacity,1))}.text-ghibli-wood\/50{color:rgba(74,59,50,.5)}.text-ghibli-wood\/60{color:rgba(74,59,50,.6)}.text-ghibli-wood\/70{color:rgba(74,59,50,.7)}.text-ghibli-wood\/80{color:rgba(74,59,50,.8)}.text-ghibli-woodDark{--tw-text-opacity:1;color:rgb(44 34 28/var(--tw-text-opacity,1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.line-through{text-decoration-line:line-through}.decoration-ghibli-sun\/70{text-decoration-color:rgba(230,166,62,.7)}.accent-\[\#E3A646\]{accent-color:#e3a646}.opacity-0{opacity:0}.opacity-50{opacity:.5}.opacity-90{opacity:.9}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgba(0,0,0,.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color)}.shadow-2xl,.shadow-lg{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.ring{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.blur{--tw-blur:blur(8px)}.blur,.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-filter{-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300{transition-duration:.3s}.duration-700{transition-duration:.7s}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.focus\:border-ghibli-fox:focus{--tw-border-opacity:1;border-color:rgb(232 137 74/var(--tw-border-opacity,1))}.focus\:border-ghibli-moss:focus{--tw-border-opacity:1;border-color:rgb(62 92 67/var(--tw-border-opacity,1))}.focus\:border-ghibli-sun:focus{--tw-border-opacity:1;border-color:rgb(230 166 62/var(--tw-border-opacity,1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}@media (min-width:640px){.sm\:rounded-\[44px\]{border-radius:44px}.sm\:border-\[8px\]{border-width:8px}.sm\:border-ghibli-woodDark{--tw-border-opacity:1;border-color:rgb(44 34 28/var(--tw-border-opacity,1))}.sm\:p-4{padding:1rem}}
+    * { -webkit-tap-highlight-color: transparent; }
+    body { -webkit-user-select: none; user-select: none; background: #1F2821; font-family: 'Zen Kaku Gothic New', sans-serif; color: #2C221C; }
+    input, textarea, select { -webkit-user-select: text; user-select: text; font-size: 16px !important; }
+    .app-shell { height: 100vh; height: 100dvh; }
+    @media (min-width: 640px) { .app-shell { height: 900px; max-height: calc(100vh - 32px); } }
+    main > * { flex-shrink: 0; }
+    .shadow-xs { box-shadow: 0 1px 2px rgba(44, 34, 28, .06); }
+    .backdrop-blur-xs { backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); }
+    .safe-bottom { bottom: calc(16px + env(safe-area-inset-bottom)); }
+    .sheet-pad-bottom { padding-bottom: calc(24px + env(safe-area-inset-bottom)); }
+    .no-scroll::-webkit-scrollbar { display: none; }
+    .no-scroll { -ms-overflow-style: none; scrollbar-width: none; }
+
+    .komorebi-canvas {
+      background-color: #FBF8F1;
+      background-image:
+        radial-gradient(circle at 85% 8%, rgba(230, 166, 62, .38) 0%, transparent 42%),
+        radial-gradient(circle at 10% 22%, rgba(127, 168, 163, .22) 0%, transparent 48%),
+        radial-gradient(rgba(44, 34, 28, .03) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 18px 18px;
+    }
+    /* 地面以下：土壤漸層 */
+    .soil { background: linear-gradient(180deg, #F3E9DA 0%, #EFE3D1 40%, #EADDC9 100%); }
+
+    .ghibli-tap { transition: transform .12s cubic-bezier(.34, 1.56, .64, 1), filter .12s ease; }
+    .ghibli-tap:active { transform: scale(.95); filter: brightness(.96); }
+    button:disabled { opacity: .45; cursor: not-allowed; }
+    button:disabled:active { transform: none; filter: none; }
+
+    .komo-dapple { position: absolute; border-radius: 50%; background: radial-gradient(closest-side, rgba(255, 226, 160, .7), rgba(255, 226, 160, 0)); animation: dappleBreathe 12s ease-in-out infinite; }
+    @keyframes dappleBreathe { 0%,100% { transform: translate(0,0) scale(1); opacity: .55; } 50% { transform: translate(-8px,6px) scale(1.12); opacity: 1; } }
+
+    .vf-crown { animation: crownSway 6s ease-in-out infinite; transform-origin: 180px 150px; transform-box: view-box; }
+    @keyframes crownSway { 0%,100% { transform: rotate(-1deg); } 50% { transform: rotate(1.2deg); } }
+    .vf-flower { animation: bloom .9s cubic-bezier(.34,1.56,.64,1) both; transform-box: fill-box; transform-origin: center; }
+    @keyframes bloom { from { transform: scale(0) rotate(-40deg); } to { transform: scale(1) rotate(0); } }
+    .vf-sapling { animation: crownSway 4s ease-in-out infinite; }
+    .fox-tail { animation: tailWag 3.6s ease-in-out infinite; transform-origin: 56px 58px; transform-box: view-box; }
+    @keyframes tailWag { 0%,70%,100% { transform: rotate(0); } 80% { transform: rotate(-8deg); } 90% { transform: rotate(4deg); } }
+    .fox-hop { animation: foxHop .55s cubic-bezier(.34,1.56,.64,1); }
+    @keyframes foxHop { 35% { transform: translateY(-6px) scale(1.05); } 70% { transform: translateY(0) scale(.98); } }
+
+    /* 根 */
+    .root-card { position: relative; }
+    .root-card::before { content: ''; position: absolute; left: -14px; top: -18px; bottom: 18px; border-left: 2px dashed #C9B49C; }
+    .root-card.lit::before { border-left: 2.5px solid #E3A646; box-shadow: 0 0 8px rgba(227, 166, 70, .55); }
+    .root-glow { animation: rootGlow 1.6s ease-out; }
+    @keyframes rootGlow { 0% { box-shadow: 0 0 0 0 rgba(242, 196, 106, .0); } 30% { box-shadow: 0 0 0 6px rgba(242, 196, 106, .45); } 100% { box-shadow: 0 0 0 14px rgba(242, 196, 106, 0); } }
+    .act-dot { width: 18px; height: 18px; flex-shrink: 0; }
+
+    /* 週六的問題微微發光 */
+    .q-glow { animation: qGlow 2.8s ease-in-out infinite; }
+    @keyframes qGlow { 0%,100% { box-shadow: 0 6px 18px rgba(232, 137, 74, .18), 0 0 0 0 rgba(242, 196, 106, .0); } 50% { box-shadow: 0 6px 22px rgba(232, 137, 74, .28), 0 0 0 6px rgba(242, 196, 106, .35); } }
+
+    @keyframes floatUpFade {
+      0% { opacity: 0; transform: translate(-50%, 16px) scale(.92); }
+      8% { opacity: 1; transform: translate(-50%, 0) scale(1.04); }
+      12% { transform: translate(-50%, 0) scale(1); }
+      88% { opacity: 1; transform: translate(-50%, -4px) scale(1); }
+      100% { opacity: 0; transform: translate(-50%, -24px) scale(.94); }
+    }
+    .toast-float { animation: floatUpFade var(--toast-dur, 2.6s) cubic-bezier(.2,.8,.25,1) forwards; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .komo-dapple, .vf-crown, .vf-flower, .vf-sapling, .fox-tail, .fox-hop, .root-glow, .q-glow, .fox-leaf { animation: none !important; }
+      .toast-float { animation-name: none; opacity: 1; transform: translate(-50%, 0); }
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-0 sm:p-4">
+  <div class="app-shell w-full max-w-[430px] komorebi-canvas sm:rounded-[44px] shadow-2xl flex flex-col relative overflow-hidden sm:border-[8px] sm:border-ghibli-woodDark">
+
+    <div class="absolute inset-0 pointer-events-none z-0 overflow-hidden" aria-hidden="true">
+      <span class="komo-dapple" style="top:-30px; right:-20px; width:180px; height:150px"></span>
+      <span class="komo-dapple" style="top:120px; left:40px; width:90px; height:70px; animation-delay:-4s; opacity:.5"></span>
+      <span class="komo-dapple" style="top:260px; right:30px; width:110px; height:90px; animation-delay:-8s; opacity:.45"></span>
+    </div>
+
+    <!-- 頂部 -->
+    <header class="px-5 pb-1 flex-shrink-0 z-10" style="padding-top: calc(20px + env(safe-area-inset-top))">
+      <div class="flex items-center justify-between gap-3">
+        <div class="flex items-center gap-3 min-w-0">
+          <button id="foxBtn" aria-label="和小狐狸打招呼" class="w-[52px] h-[52px] flex-shrink-0 rounded-2xl bg-white/95 border-2 border-ghibli-fox/30 p-1 flex items-center justify-center shadow-xs">
+            <span id="foxHeadSlot" class="w-11 h-11 block"></span>
+          </button>
+          <div class="min-w-0">
+            <div class="flex items-center gap-1.5">
+              <h1 class="text-lg font-black font-round text-ghibli-woodDark tracking-tight">願景之森</h1>
+              <span class="text-[10px] tracking-widest text-ghibli-fox font-extrabold uppercase opacity-90">Vision</span>
+            </div>
+            <p id="foxQuote" class="text-[11px] text-ghibli-wood font-bold leading-snug">小狐狸說：從想要的未來，回頭看今天</p>
+          </div>
+        </div>
+        <button id="settingsBtn" aria-label="設定與備份" class="w-9 h-9 flex-shrink-0 rounded-2xl bg-white/90 border border-ghibli-wood/20 text-ghibli-wood flex items-center justify-center shadow-xs ghibli-tap">
+          <!-- 手繪小葉齒輪 -->
+          <svg viewBox="0 0 24 24" class="w-[18px] h-[18px]" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="3.2"/>
+            <path d="M12 2.8v2.4M12 18.8v2.4M2.8 12h2.4M18.8 12h2.4M5.5 5.5l1.7 1.7M16.8 16.8l1.7 1.7M5.5 18.5l1.7-1.7M16.8 7.2l1.7-1.7"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- 主舞台：由上往下 = 從終點回到今天 -->
+    <main id="mainScroll" class="flex-1 overflow-y-auto no-scroll z-10 flex flex-col">
+
+      <!-- 年底提示 -->
+      <div id="ritualBanner" class="hidden mx-5 mt-2"></div>
+
+      <!-- 樹冠：願景 -->
+      <section class="px-5 pt-1">
+        <div class="flex items-baseline justify-between px-0.5">
+          <h2 class="text-xs font-black text-ghibli-moss tracking-wider">樹冠 · <span id="endYearLabel">2031</span> 年想要的生活</h2>
+          <span id="visionCount" class="text-[11px] font-bold text-ghibli-wood/70"></span>
+        </div>
+        <div id="canopySlot" class="mt-1 -mx-2"></div>
+        <div id="visionList" class="space-y-1.5 -mt-1"></div>
+      </section>
+
+      <!-- 地面 -->
+      <section class="mt-6 relative">
+        <div class="relative h-[74px]">
+          <svg viewBox="0 0 430 74" preserveAspectRatio="none" class="absolute inset-0 w-full h-full" aria-hidden="true">
+            <path d="M0,40 C40,34 70,42 110,37 C160,31 200,41 250,36 C300,31 340,40 380,35 C405,32 420,36 430,35 L430,74 L0,74 Z" fill="#F3E9DA"/>
+            <path d="M0,40 C40,34 70,42 110,37 C160,31 200,41 250,36 C300,31 340,40 380,35 C405,32 420,36 430,35" fill="none" stroke="#6B4E3A" stroke-width="2" stroke-linecap="round"/>
+            <path d="M130,36 l-3,-7 M134,36 l1,-8 M138,36 l4,-6 M220,38 l-2,-6 M224,38 l2,-7 M268,36 l-3,-6 M272,36 l1,-7" stroke="#7FA672" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+          <svg id="foxSitSlot" viewBox="0 0 90 70" class="absolute left-4 bottom-[28px] w-[86px] h-[66px] overflow-visible" aria-hidden="true"></svg>
+          <div class="absolute right-5 bottom-[42px] text-right">
+            <div class="text-[10px] font-bold text-ghibli-wood">今年點亮</div>
+            <div class="font-round leading-none"><span id="litNum" class="text-2xl font-black text-ghibli-woodDark">0</span><span id="litTotal" class="text-sm font-black text-ghibli-wood/70"> / 0</span><span class="text-[11px] font-bold text-ghibli-wood ml-1">段根</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 地面以下：根 -->
+      <section class="soil flex-1 px-5 pt-1 pb-36">
+        <div id="thisYear"></div>
+        <div id="futureYears" class="mt-6 space-y-2.5"></div>
+        <div id="ringsWrap" class="mt-6"></div>
+      </section>
+    </main>
+
+    <!-- 唯一的動作：回答一個問題 -->
+    <div class="absolute safe-bottom inset-x-4 z-20">
+      <button id="questionBtn" class="w-full text-left rounded-3xl bg-white border-2 border-ghibli-fox/40 px-4 py-3.5 flex items-center gap-3 shadow-lg ghibli-tap">
+        <span id="questionFox" class="w-10 h-10 flex-shrink-0 rounded-2xl bg-ghibli-foxSoft p-0.5 block"></span>
+        <span class="min-w-0 flex-1">
+          <span class="block text-[15px] font-black font-round text-ghibli-woodDark leading-snug">這週，我為想要的未來做了什麼？</span>
+          <span id="questionSub" class="block text-[11px] font-bold text-ghibli-wood/80 mt-0.5">每週六回顧 · 約 3 分鐘</span>
+        </span>
+        <svg viewBox="0 0 24 24" class="w-5 h-5 text-ghibli-fox flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
+      </button>
+    </div>
+
+    <!-- Toast -->
+    <div id="toast" role="status" aria-live="polite" class="hidden absolute top-16 left-1/2 px-4 py-2.5 rounded-full bg-ghibli-woodDark text-white text-xs font-bold font-round shadow-2xl z-[60] pointer-events-none items-center gap-2 whitespace-nowrap" style="transform: translateX(-50%);">
+      <svg viewBox="0 0 16 16" class="w-3.5 h-3.5 fill-ghibli-sun flex-shrink-0"><polygon points="8,0 10,6 16,8 10,10 8,16 6,10 0,8 6,6"/></svg>
+      <span id="toastMsg"></span>
+      <button id="toastUndoBtn" class="hidden ml-1 pl-2.5 border-l border-white/25 text-ghibli-sun font-black pointer-events-auto">復原</button>
+    </div>
+
+    <!-- 抽屜：願景 -->
+    <div id="sheetVision" class="sheet fixed inset-0 bg-ghibli-woodDark/60 backdrop-blur-xs z-50 flex items-end justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+      <div class="sheet-body sheet-pad-bottom w-full max-w-[430px] max-h-[88vh] overflow-y-auto no-scroll bg-white rounded-t-[36px] p-6 shadow-2xl transform translate-y-full transition-transform duration-300 border-t-2 border-ghibli-moss/30" role="dialog" aria-modal="true">
+        <div class="flex items-center justify-between pb-3 border-b border-ghibli-wood/10">
+          <div>
+            <h3 id="visionSheetTitle" class="text-base font-extrabold font-round text-ghibli-woodDark">寫下一條願景</h3>
+            <p id="visionSheetSub" class="text-xs text-ghibli-wood mt-0.5">想像那一年的某個平凡日子，你過著什麼樣的生活？</p>
+          </div>
+          <button type="button" data-close aria-label="關閉" class="close-x w-8 h-8 flex-shrink-0 rounded-full bg-ghibli-paleLeaf flex items-center justify-center text-ghibli-woodDark ghibli-tap"></button>
+        </div>
+        <div class="mt-4 space-y-4">
+          <div>
+            <label for="vTitle" class="block text-xs font-bold text-ghibli-woodDark mb-1.5">願景（一句話）</label>
+            <input id="vTitle" maxlength="24" autocomplete="off" placeholder="例如：在喜歡的城市，做有影響力的工作" class="w-full px-3.5 py-3 rounded-2xl bg-ghibli-paleLeaf/50 border-2 border-ghibli-moss/20 focus:outline-none focus:border-ghibli-moss font-bold text-ghibli-woodDark">
+          </div>
+          <div>
+            <span class="block text-xs font-bold text-ghibli-woodDark mb-1.5">屬於哪個生活面向</span>
+            <div id="vFacets" class="flex flex-wrap gap-2"></div>
+          </div>
+          <div>
+            <label for="vDesc" class="block text-xs font-bold text-ghibli-woodDark mb-1.5">多說一點（可留空）</label>
+            <textarea id="vDesc" maxlength="80" rows="2" placeholder="那時候的你，早上醒來會看到什麼？" class="w-full px-3.5 py-2.5 rounded-xl bg-ghibli-paleLeaf/40 border border-ghibli-moss/20 focus:outline-none focus:border-ghibli-moss text-ghibli-woodDark font-bold resize-none"></textarea>
+          </div>
+          <p id="vError" class="hidden text-xs font-bold text-ghibli-terracotta"></p>
+          <button id="vSave" class="w-full py-3.5 rounded-2xl bg-ghibli-moss text-white font-black font-round text-sm shadow-md ghibli-tap">種進樹冠</button>
+          <button id="vDelete" class="hidden w-full py-2 text-xs font-bold text-ghibli-wood/60">刪除這條願景</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 抽屜：結果 -->
+    <div id="sheetResult" class="sheet fixed inset-0 bg-ghibli-woodDark/60 backdrop-blur-xs z-50 flex items-end justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+      <div class="sheet-body sheet-pad-bottom w-full max-w-[430px] max-h-[90vh] overflow-y-auto no-scroll bg-white rounded-t-[36px] p-6 shadow-2xl transform translate-y-full transition-transform duration-300 border-t-2 border-ghibli-moss/30" role="dialog" aria-modal="true">
+        <div class="flex items-center justify-between pb-3 border-b border-ghibli-wood/10">
+          <div>
+            <h3 id="resultSheetTitle" class="text-base font-extrabold font-round text-ghibli-woodDark">長出一段根</h3>
+            <p class="text-xs text-ghibli-wood mt-0.5">這一年要達成的結果，必須連回一條願景</p>
+          </div>
+          <button type="button" data-close aria-label="關閉" class="close-x w-8 h-8 flex-shrink-0 rounded-full bg-ghibli-paleLeaf flex items-center justify-center text-ghibli-woodDark ghibli-tap"></button>
+        </div>
+        <div class="mt-4 space-y-4">
+          <div>
+            <label for="rTitle" class="block text-xs font-bold text-ghibli-woodDark mb-1.5">結果</label>
+            <input id="rTitle" maxlength="24" autocomplete="off" placeholder="例如：拿到外商的錄取" class="w-full px-3.5 py-3 rounded-2xl bg-ghibli-paleLeaf/50 border-2 border-ghibli-moss/20 focus:outline-none focus:border-ghibli-moss font-bold text-ghibli-woodDark">
+          </div>
+          <div>
+            <span class="block text-xs font-bold text-ghibli-woodDark mb-1.5">哪一年</span>
+            <div id="rYears" class="flex flex-wrap gap-2"></div>
+          </div>
+          <div>
+            <span class="block text-xs font-bold text-ghibli-woodDark mb-1.5">連回哪一條願景</span>
+            <div id="rVisions" class="space-y-1.5"></div>
+          </div>
+          <div class="p-3.5 rounded-2xl bg-ghibli-sunSoft/60 border border-ghibli-sun/25">
+            <label class="flex items-center justify-between gap-3">
+              <span class="text-xs font-bold text-ghibli-woodDark">這個結果有數字嗎？<span class="block text-[11px] text-ghibli-wood font-bold">例如存款 200 萬、讀 12 本書；沒有也沒關係</span></span>
+              <input id="rHasNum" type="checkbox" class="w-5 h-5 accent-[#E3A646]">
+            </label>
+            <div id="rNumFields" class="hidden mt-3 grid grid-cols-3 gap-2">
+              <div><label for="rTarget" class="block text-[11px] font-bold text-ghibli-wood mb-1">目標</label><input id="rTarget" inputmode="numeric" class="w-full px-2.5 py-1.5 rounded-xl border border-ghibli-wood/20 font-bold bg-white"></div>
+              <div><label for="rCurrent" class="block text-[11px] font-bold text-ghibli-wood mb-1">目前</label><input id="rCurrent" inputmode="numeric" class="w-full px-2.5 py-1.5 rounded-xl border border-ghibli-wood/20 font-bold bg-white"></div>
+              <div><label for="rUnit" class="block text-[11px] font-bold text-ghibli-wood mb-1">單位</label><input id="rUnit" maxlength="6" placeholder="萬、本" class="w-full px-2.5 py-1.5 rounded-xl border border-ghibli-wood/20 font-bold bg-white"></div>
+            </div>
+          </div>
+          <div id="rActionsWrap" class="hidden">
+            <span class="block text-xs font-bold text-ghibli-woodDark mb-1.5">關鍵行動</span>
+            <div id="rActions" class="space-y-1.5"></div>
+          </div>
+          <p id="rError" class="hidden text-xs font-bold text-ghibli-terracotta"></p>
+          <button id="rSave" class="w-full py-3.5 rounded-2xl bg-ghibli-moss text-white font-black font-round text-sm shadow-md ghibli-tap">讓根長出來</button>
+          <button id="rDelete" class="hidden w-full py-2 text-xs font-bold text-ghibli-wood/60">刪除這個結果</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 抽屜：每週回顧 -->
+    <div id="sheetReview" class="sheet fixed inset-0 bg-ghibli-woodDark/60 backdrop-blur-xs z-50 flex items-end justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+      <div class="sheet-body sheet-pad-bottom w-full max-w-[430px] max-h-[92vh] overflow-y-auto no-scroll bg-white rounded-t-[36px] p-6 pt-0 shadow-2xl transform translate-y-full transition-transform duration-300 border-t-2 border-ghibli-fox/40" role="dialog" aria-modal="true">
+        <div class="flex items-start justify-between pt-6 pb-3 border-b border-ghibli-wood/10 sticky top-0 bg-white z-10">
+          <div class="min-w-0">
+            <p id="reviewDate" class="text-[11px] font-bold text-ghibli-fox"></p>
+            <h3 class="text-base font-black font-round text-ghibli-woodDark leading-snug">這週，我為想要的未來做了什麼？</h3>
+          </div>
+          <button type="button" data-close aria-label="關閉" class="close-x w-8 h-8 flex-shrink-0 rounded-full bg-ghibli-paleLeaf flex items-center justify-center text-ghibli-woodDark ghibli-tap"></button>
+        </div>
+        <div class="mt-4 space-y-5">
+          <div>
+            <textarea id="rvAnswer" maxlength="200" rows="4" placeholder="用自己的話寫，一句也好" class="w-full px-3.5 py-3 rounded-2xl bg-ghibli-foxSoft/40 border-2 border-ghibli-fox/25 focus:outline-none focus:border-ghibli-fox font-bold text-ghibli-woodDark resize-none leading-relaxed"></textarea>
+            <div class="flex items-center justify-between mt-1.5">
+              <button id="rvRest" class="px-3 py-1.5 rounded-full border border-ghibli-wood/25 text-xs font-bold text-ghibli-wood ghibli-tap">這週在休息</button>
+              <span id="rvCount" class="text-[10px] font-bold text-ghibli-wood/60">0 / 200</span>
+            </div>
+          </div>
+          <div id="rvFeedWrap">
+            <span class="block text-xs font-bold text-ghibli-woodDark mb-1.5">這句話在餵哪一段根？<span class="text-ghibli-wood/70">（可不選）</span></span>
+            <div id="rvFeed" class="flex flex-wrap gap-2"></div>
+          </div>
+          <div id="rvActionsWrap">
+            <span class="block text-xs font-bold text-ghibli-woodDark mb-1.5">對照今年的行動</span>
+            <div id="rvActions" class="space-y-2"></div>
+          </div>
+          <div id="rvNumsWrap">
+            <span class="block text-xs font-bold text-ghibli-woodDark mb-1.5">數字更新</span>
+            <div id="rvNums" class="space-y-2"></div>
+          </div>
+          <button id="rvSave" class="w-full py-3.5 rounded-2xl bg-ghibli-fox text-white font-black font-round text-sm shadow-md ghibli-tap" disabled>種下這一週</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 抽屜：所有回答 -->
+    <div id="sheetAnswers" class="sheet fixed inset-0 bg-ghibli-woodDark/60 backdrop-blur-xs z-50 flex items-end justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+      <div class="sheet-body sheet-pad-bottom w-full max-w-[430px] max-h-[85vh] overflow-y-auto no-scroll bg-white rounded-t-[36px] p-6 pt-0 shadow-2xl transform translate-y-full transition-transform duration-300 border-t-2 border-ghibli-fox/40" role="dialog" aria-modal="true">
+        <div class="flex items-center justify-between pt-6 pb-3 border-b border-ghibli-wood/10 sticky top-0 bg-white z-10">
+          <div>
+            <h3 class="text-base font-extrabold font-round text-ghibli-woodDark">每一週的回答</h3>
+            <p id="answersSub" class="text-xs text-ghibli-wood mt-0.5"></p>
+          </div>
+          <button type="button" data-close aria-label="關閉" class="close-x w-8 h-8 flex-shrink-0 rounded-full bg-ghibli-paleLeaf flex items-center justify-center text-ghibli-woodDark ghibli-tap"></button>
+        </div>
+        <div id="answersList" class="mt-4 space-y-2.5"></div>
+      </div>
+    </div>
+
+    <!-- 抽屜：年輪儀式 -->
+    <div id="sheetRitual" class="sheet fixed inset-0 bg-ghibli-woodDark/60 backdrop-blur-xs z-50 flex items-end justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+      <div class="sheet-body sheet-pad-bottom w-full max-w-[430px] max-h-[92vh] overflow-y-auto no-scroll bg-white rounded-t-[36px] p-6 pt-0 shadow-2xl transform translate-y-full transition-transform duration-300 border-t-2 border-ghibli-sun/50" role="dialog" aria-modal="true">
+        <div class="flex items-center justify-between pt-6 pb-3 border-b border-ghibli-wood/10 sticky top-0 bg-white z-10">
+          <div>
+            <h3 id="ritualTitle" class="text-base font-extrabold font-round text-ghibli-woodDark">收成年輪</h3>
+            <p class="text-xs text-ghibli-wood mt-0.5">先讀完這一年的回答，再決定每段根的去處</p>
+          </div>
+          <button type="button" data-close aria-label="關閉" class="close-x w-8 h-8 flex-shrink-0 rounded-full bg-ghibli-paleLeaf flex items-center justify-center text-ghibli-woodDark ghibli-tap"></button>
+        </div>
+        <div class="mt-4 space-y-5">
+          <div>
+            <span id="ritualAnswersTitle" class="block text-xs font-bold text-ghibli-woodDark mb-1.5"></span>
+            <div id="ritualAnswers" class="max-h-[34vh] overflow-y-auto space-y-2 pr-1 rounded-2xl bg-ghibli-cream p-3 border border-ghibli-wood/10"></div>
+          </div>
+          <div>
+            <span class="block text-xs font-bold text-ghibli-woodDark mb-1.5">每段根的去處</span>
+            <div id="ritualResults" class="space-y-2.5"></div>
+          </div>
+          <div>
+            <label for="ritualSentence" class="block text-xs font-bold text-ghibli-woodDark mb-1.5">寫一句給這一年的話</label>
+            <input id="ritualSentence" maxlength="40" autocomplete="off" class="w-full px-3.5 py-3 rounded-2xl bg-ghibli-sunSoft/60 border-2 border-ghibli-sun/30 focus:outline-none focus:border-ghibli-sun font-bold text-ghibli-woodDark">
+          </div>
+          <p class="text-[11px] font-bold text-ghibli-wood leading-relaxed">收成之後，也可以回到樹冠看看：那些願景，還是你想要的嗎？改寫時，舊的版本會留著。</p>
+          <button id="ritualSave" class="w-full py-3.5 rounded-2xl bg-ghibli-sun text-white font-black font-round text-sm shadow-md ghibli-tap"></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 抽屜：設定 -->
+    <div id="sheetSettings" class="sheet fixed inset-0 bg-ghibli-woodDark/60 backdrop-blur-xs z-50 flex items-end justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+      <div class="sheet-body sheet-pad-bottom w-full max-w-[430px] max-h-[88vh] overflow-y-auto no-scroll bg-white rounded-t-[36px] p-6 shadow-2xl transform translate-y-full transition-transform duration-300 border-t-2 border-ghibli-moss/30" role="dialog" aria-modal="true">
+        <div class="flex items-center justify-between pb-3 border-b border-ghibli-wood/10">
+          <h3 class="text-base font-extrabold font-round text-ghibli-woodDark">設定與備份</h3>
+          <button type="button" data-close aria-label="關閉" class="close-x w-8 h-8 flex-shrink-0 rounded-full bg-ghibli-paleLeaf flex items-center justify-center text-ghibli-woodDark ghibli-tap"></button>
+        </div>
+        <div class="mt-4 space-y-4">
+          <div class="flex items-center justify-between gap-3">
+            <span class="text-xs font-bold text-ghibli-woodDark">願景是哪一年的生活</span>
+            <select id="sEndYear" class="rounded-xl border border-ghibli-wood/20 px-2 py-1 font-bold bg-white text-ghibli-woodDark"></select>
+          </div>
+          <div class="flex items-center justify-between gap-3">
+            <span class="text-xs font-bold text-ghibli-woodDark">音效</span>
+            <button id="sSound" class="px-3 py-1.5 rounded-full border border-ghibli-wood/25 text-xs font-bold text-ghibli-wood ghibli-tap"></button>
+          </div>
+          <button id="sAnswers" class="w-full py-2.5 rounded-xl bg-ghibli-foxSoft/60 text-xs font-bold text-ghibli-woodDark ghibli-tap">看所有回答</button>
+          <button id="sRitual" class="w-full py-2.5 rounded-xl bg-ghibli-sunSoft/70 text-xs font-bold text-ghibli-woodDark ghibli-tap"></button>
+
+          <div class="p-4 rounded-2xl bg-ghibli-sunSoft/50 border border-ghibli-sun/30">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-black text-ghibli-woodDark font-round">資料備份</span>
+              <span id="lastBackupText" class="text-[10px] font-bold text-ghibli-wood/70"></span>
+            </div>
+            <p class="mt-1 text-[11px] leading-relaxed text-ghibli-wood">每個變更都即時存在這支手機裡，不會上傳。換手機或清除瀏覽器資料前，記得先匯出。</p>
+            <div class="mt-3 flex gap-2">
+              <button id="exportBtn" class="flex-1 py-2.5 rounded-xl bg-white border border-ghibli-wood/20 text-xs font-bold text-ghibli-woodDark ghibli-tap">匯出備份</button>
+              <button id="importBtn" class="flex-1 py-2.5 rounded-xl bg-white border border-ghibli-wood/20 text-xs font-bold text-ghibli-woodDark ghibli-tap">匯入備份</button>
+              <input id="importFile" type="file" accept=".json,application/json" class="hidden">
+            </div>
+            <div id="importConfirm" class="hidden mt-3 p-3 rounded-xl bg-white border border-ghibli-terracotta/30">
+              <p id="importSummary" class="text-[11px] font-bold text-ghibli-woodDark leading-relaxed"></p>
+              <div class="mt-2.5 flex gap-2">
+                <button id="importCancelBtn" class="flex-1 py-2 rounded-xl bg-ghibli-paleLeaf text-xs font-bold text-ghibli-wood ghibli-tap">取消</button>
+                <button id="importOkBtn" class="flex-1 py-2 rounded-xl bg-ghibli-terracotta text-xs font-bold text-white ghibli-tap">確定取代</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>// 願景之森：手繪元件（狐狸、樹冠、地面）
+const INK = '#6B4E3A';
+const FACETS = {
+  work:    { name: '工作', color: '#6E9A6F', soft: '#E3EFDF' },
+  health:  { name: '健康', color: '#79A9B0', soft: '#E1EEF0' },
+  bond:    { name: '關係', color: '#D98C7A', soft: '#F8E4DE' },
+  money:   { name: '財務', color: '#E3A646', soft: '#FBEFD6' },
+  explore: { name: '探索', color: '#9C8AB8', soft: '#ECE6F3' }
+};
+
+function foxHead(extraClass = '') {
+  return `
+  <svg viewBox="0 0 64 64" class="${extraClass}" aria-hidden="true">
+    <path d="M13,30 L17,7 C18,4 21,4 23,6 L31,18 Z" fill="#EE9B5E" stroke="${INK}" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M17,25 L19,11 L26,19 Z" fill="#FFE1C7"/>
+    <path d="M51,30 L47,7 C46,4 43,4 41,6 L33,18 Z" fill="#EE9B5E" stroke="${INK}" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M47,25 L45,11 L38,19 Z" fill="#FFE1C7"/>
+    <path d="M18.5,8.5 L17.4,15 L21.5,11 Z M45.5,8.5 L46.6,15 L42.5,11 Z" fill="#7A4A35"/>
+    <path d="M32,17 C47,17 55,27 54,38 C53,50 43,57 32,57 C21,57 11,50 10,38 C9,27 17,17 32,17 Z" fill="#F2A465" stroke="${INK}" stroke-width="2"/>
+    <path d="M12,39 C19,36 26,38 32,46 C38,38 45,36 52,39 C50,50 42,56 32,56 C22,56 14,50 12,39 Z" fill="#FFF6EA"/>
+    <path d="M21,35 Q24,31 27,35" fill="none" stroke="${INK}" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M37,35 Q40,31 43,35" fill="none" stroke="${INK}" stroke-width="2.2" stroke-linecap="round"/>
+    <ellipse cx="32" cy="44" rx="2.6" ry="1.9" fill="#4A3B32"/>
+    <path d="M32,45.8 Q32,48.6 29.6,49.2 M32,45.8 Q32,48.6 34.4,49.2" fill="none" stroke="#4A3B32" stroke-width="1.6" stroke-linecap="round"/>
+    <ellipse cx="18.5" cy="41.5" rx="3.4" ry="2.1" fill="#F2A99A" opacity=".85"/>
+    <ellipse cx="45.5" cy="41.5" rx="3.4" ry="2.1" fill="#F2A99A" opacity=".85"/>
+    <g class="fox-leaf"><path d="M32,18 Q26,9 32,5 Q38,9 32,18" fill="#7FA672" stroke="${INK}" stroke-width="1.4"/><path d="M32,7 L32,16" stroke="#4E7A55" stroke-width="1"/></g>
+  </svg>`;
+}
+
+// 坐在地上的小狐狸（地面線用）
+function foxSitting() {
+  return `
+  <g class="fox-sit">
+    <path class="fox-tail" d="M58,62 C76,60 80,44 72,36 C68,32 62,34 64,40 C66,46 62,52 54,54 Z" fill="#EE9B5E" stroke="${INK}" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M71,37 C68,34 64,35 64.5,39 C67,39 69,38 71,37 Z" fill="#FFF6EA"/>
+    <path d="M30,64 C27,50 32,40 42,40 C52,40 57,50 54,64 Z" fill="#F2A465" stroke="${INK}" stroke-width="1.8"/>
+    <path d="M36,64 C35,54 38,47 42,47 C46,47 49,54 48,64 Z" fill="#FFF6EA"/>
+    <g transform="translate(22 6) scale(0.62)">${foxHead().replace(/<\/?svg[^>]*>/g, '')}</g>
+  </g>`;
+}
+
+// 樹冠：依願景數量長出葉叢；花＝該願景下今年達成的結果
+const CROWN_POS = [[180, 92, 60], [120, 116, 46], [240, 116, 46], [140, 58, 42], [220, 56, 42]];
+function canopySvg(visions, opts = {}) {
+  const n = visions.length;
+  const blobs = visions.map((v, i) => ({ v, p: CROWN_POS[i] }))
+    .sort((a, b) => a.p[1] - b.p[1]); // 後面的先畫
+  const flower = (x, y, k) => `<g transform="translate(${x} ${y})" class="vf-flower" style="animation-delay:${k * .2}s">${[0, 72, 144, 216, 288].map(a => `<ellipse rx="3.4" ry="5" cy="-4.6" fill="#FFF3F0" stroke="${INK}" stroke-width=".7" transform="rotate(${a})"/>`).join('')}<circle r="2.8" fill="#F2C46A" stroke="${INK}" stroke-width=".6"/></g>`;
+  const crown = n === 0 ? `
+      <g class="vf-sapling" transform="translate(180 204) scale(2.2) translate(-180 -204)">
+        <path d="M180,200 C180,184 180,172 181,160" stroke="#8A6A50" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M181,170 C170,160 160,164 162,170 C166,176 176,174 181,170 Z" fill="#9DBF8C" stroke="${INK}" stroke-width="1.3"/>
+        <path d="M181,162 C192,150 202,156 199,162 C196,168 186,167 181,162 Z" fill="#7FA672" stroke="${INK}" stroke-width="1.3"/>
+      </g>` : `
+      <g class="vf-crown">
+        ${blobs.map(({ v, p }, i) => {
+          const f = FACETS[v.facet] || FACETS.work;
+          const faint = opts.faint && opts.faint.has(v.id);
+          const [x, y, r] = p;
+          const fl = Math.min(3, (opts.flowers && opts.flowers[v.id]) || 0);
+          const spots = [[x - r * .35, y - r * .25], [x + r * .38, y - r * .05], [x - r * .05, y + r * .4]];
+          return `<g opacity="${faint ? .38 : 1}" data-cv="${v.id}">
+            <circle cx="${x}" cy="${y}" r="${r}" fill="${f.color}" opacity=".93" filter="url(#vfWater)"/>
+            <circle cx="${x - r * .28}" cy="${y - r * .3}" r="${r * .45}" fill="#FFFFFF" opacity=".22" filter="url(#vfWater)"/>
+            <circle cx="${x}" cy="${y}" r="${r}" fill="none" stroke="${INK}" stroke-width="1.6" opacity=".55" filter="url(#vfInk)"/>
+            ${spots.slice(0, fl).map(([sx, sy], k) => flower(sx, sy, k)).join('')}
+          </g>`;
+        }).join('')}
+      </g>`;
+  return `
+  <svg viewBox="${n === 0 ? '0 96 360 118' : '0 0 360 214'}" class="w-full h-auto overflow-visible" aria-hidden="true">
+    <defs>
+      <filter id="vfWater" x="-20%" y="-20%" width="140%" height="140%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="3" seed="4" result="n"/>
+        <feDisplacementMap in="SourceGraphic" in2="n" scale="12" xChannelSelector="R" yChannelSelector="G" result="d"/>
+        <feGaussianBlur in="d" stdDeviation="1"/>
+      </filter>
+      <filter id="vfInk" x="-10%" y="-10%" width="120%" height="120%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="9" result="n"/>
+        <feDisplacementMap in="SourceGraphic" in2="n" scale="9" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+      <filter id="vfLine" x="-5%" y="-5%" width="110%" height="110%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="2" result="n"/>
+        <feDisplacementMap in="SourceGraphic" in2="n" scale="2" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+    </defs>
+    <ellipse cx="180" cy="208" rx="70" ry="6" fill="#B79C7E" opacity=".25"/>
+    ${n === 0 ? '' : `<g filter="url(#vfLine)">
+      <path d="M170,212 C172,186 170,160 174,128 L186,128 C190,160 188,186 190,212 Z" fill="#B48A66" stroke="${INK}" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M176,170 C171,150 158,140 146,132 M184,160 C190,146 204,138 214,134" fill="none" stroke="${INK}" stroke-width="2" stroke-linecap="round"/>
+      <path d="M178,196 C179,186 179,176 180,168" fill="none" stroke="#8A6A50" stroke-width="1" opacity=".6"/>
+    </g>`}
+    ${crown}
+  </svg>`;
+}
+
+if (typeof module !== 'undefined') module.exports = { foxHead, foxSitting, canopySvg, FACETS };
+</script>
+  <script>// ================= 願景之森 Vision Forest =================
+// 以終為始：樹冠是想要的未來，往下是每一年的根，最底下是「這週」。
+
+// ---------- 0. 小工具 ----------
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+const fmt = (n) => Number(n || 0).toLocaleString('zh-TW');
+function parseNum(str) {
+  const clean = String(str ?? '').replace(/[０-９．]/g, c => String.fromCharCode(c.charCodeAt(0) - 0xFEE0)).replace(/[,，\s]/g, '');
+  const n = parseFloat(clean.replace(/[^\d.]/g, ''));
+  return Number.isFinite(n) && n >= 0 ? Math.min(n, 999999999) : NaN;
+}
+const md = (ts) => { const d = new Date(ts); return `${d.getMonth() + 1}月${d.getDate()}日`; };
+const ymd = (ts) => { const d = new Date(ts); return `${d.getFullYear()}/${d.getMonth() + 1}/${d.getDate()}`; };
+const WEEK = ['日', '一', '二', '三', '四', '五', '六'];
+
+function startOfWeek(ts) {           // 週日 00:00 為一週開始，週六是一週的最後一天
+  const d = new Date(ts); d.setHours(0, 0, 0, 0); d.setDate(d.getDate() - d.getDay()); return d.getTime();
+}
+
+// ---------- 1. 音效（與口袋之森同一組） ----------
+class ForestSound {
+  constructor() { this.ctx = null; this.muted = false; }
+  init() {
+    if (!this.ctx) { const AC = window.AudioContext || window.webkitAudioContext; if (!AC) return false; this.ctx = new AC(); }
+    if (this.ctx.state === 'suspended') this.ctx.resume();
+    return true;
+  }
+  _arp(freqs, type, step, vol, decay) {
+    if (this.muted || !this.init()) return;
+    const now = this.ctx.currentTime;
+    freqs.forEach((f, i) => {
+      const t = now + i * step, o = this.ctx.createOscillator(), g = this.ctx.createGain();
+      o.type = type; o.frequency.setValueAtTime(f, t);
+      g.gain.setValueAtTime(vol, t); g.gain.exponentialRampToValueAtTime(0.0001, t + decay);
+      o.connect(g); g.connect(this.ctx.destination); o.start(t); o.stop(t + decay + .05);
+    });
+  }
+  tap() { this._arp([440], 'sine', 0, .04, .045); }
+  glow() { this._arp([523.25, 659.25, 783.99], 'sine', .06, .12, .6); }
+  plant() { this._arp([392, 523.25, 659.25, 783.99, 1046.5], 'sine', .07, .12, .8); }
+  bloom() { this._arp([523.25, 659.25, 783.99, 1046.5, 1318.5, 1568], 'triangle', .08, .11, .9); }
+}
+const sound = new ForestSound();
+
+// ---------- 2. 資料 ----------
+const KEY = 'vision_forest_v1';
+const KEY_UI = 'vision_forest_ui';
+const THIS_YEAR = new Date().getFullYear();
+
+function blankState() {
+  return { v: 1, visions: [], results: [], actions: [], reviews: [], rings: [], currentYear: THIS_YEAR, endYear: THIS_YEAR + 5, muted: false };
+}
+function load() {
+  try {
+    const s = JSON.parse(localStorage.getItem(KEY));
+    if (s && Array.isArray(s.visions)) return Object.assign(blankState(), s);
+  } catch (e) {}
+  return blankState();
+}
+let S = load();
+sound.muted = !!S.muted;
+
+let saveWarned = false;
+function save() {
+  try { localStorage.setItem(KEY, JSON.stringify(S)); return true; }
+  catch (e) { if (!saveWarned) { saveWarned = true; setTimeout(() => toast('這次沒能存進手機，請先匯出備份'), 0); } return false; }
+}
+const uiStore = () => { try { return JSON.parse(localStorage.getItem(KEY_UI)) || {}; } catch (e) { return {}; } };
+const uiSave = (u) => { try { localStorage.setItem(KEY_UI, JSON.stringify(u)); } catch (e) {} };
+
+// ---------- 3. 規則（上限、進度、點亮） ----------
+const isWarm = (y) => y === 2026;                       // 2026 只剩兩個月：暖身的根
+const maxResults = (y) => isWarm(y) ? 1 : 3;
+const maxActions = (y) => isWarm(y) ? 2 : 3;
+const MAX_VISIONS = 5;
+
+const visionOf = (id) => S.visions.find(v => v.id === id);
+const resultOf = (id) => S.results.find(r => r.id === id);
+const resultsIn = (y) => S.results.filter(r => r.year === y);
+const actionsOf = (rid) => S.actions.filter(a => a.resultId === rid);
+
+function progressOf(r) {
+  if (r.num && r.num.target > 0) {
+    const p = Math.floor((Number(r.num.current) || 0) / r.num.target * 100);
+    return { pct: Math.min(100, p), label: `${fmt(r.num.current)} / ${fmt(r.num.target)} ${esc(r.num.unit || '')}`.trim(), done: p >= 100 };
+  }
+  const acts = actionsOf(r.id), d = acts.filter(a => a.state === 'done').length;
+  if (!acts.length) return { pct: 0, label: '還沒有行動', done: false };
+  return { pct: Math.floor(d / acts.length * 100), label: `行動 ${d} / ${acts.length}`, done: d === acts.length };
+}
+
+function litCount() {
+  const ids = new Set(resultsIn(S.currentYear).map(r => r.id));
+  const acts = S.actions.filter(a => ids.has(a.resultId));
+  return { lit: acts.filter(a => a.state === 'done').length, total: acts.length };
+}
+
+// ---------- 4. 小狐狸的話 ----------
+const FOX_GENERIC = [
+  '從想要的未來，回頭看今天',
+  '你寫下的每一句，都在餵養那棵樹',
+  '慢慢來，森林的時間很長',
+  '今天的你，正在靠近那一年的你',
+  '根長在看不見的地方，但它一直在長'
+];
+function foxSay(text) {
+  $('foxQuote').textContent = `小狐狸說：${text}`;
+  const b = $('foxBtn'); b.classList.remove('fox-hop'); void b.offsetWidth; b.classList.add('fox-hop');
+}
+
+// ---------- 5. 渲染 ----------
+function renderAll() {
+  renderCanopy();
+  renderGround();
+  renderThisYear();
+  renderFuture();
+  renderRings();
+  renderQuestion();
+  renderBanner();
+}
+
+function renderCanopy() {
+  $('endYearLabel').textContent = S.endYear;
+  $('visionCount').textContent = S.visions.length ? `${S.visions.length} / ${MAX_VISIONS}` : '';
+  const cur = resultsIn(S.currentYear);
+  const flowers = {}, faint = new Set();
+  S.visions.forEach(v => {
+    const mine = cur.filter(r => r.visionId === v.id);
+    flowers[v.id] = mine.filter(r => progressOf(r).done).length;
+    if (!mine.length && !isWarm(S.currentYear)) faint.add(v.id);   // 暖身年只有 1 個結果，不提示失衡
+  });
+  $('canopySlot').innerHTML = canopySvg(S.visions, { flowers, faint });
+
+  const list = $('visionList');
+  if (!S.visions.length) {
+    list.innerHTML = `
+      <div class="text-center px-4 pb-1">
+        <p class="text-sm font-black font-round text-ghibli-woodDark">以終為始，先從樹冠開始</p>
+        <p class="text-xs font-bold text-ghibli-wood mt-1 leading-relaxed">寫下 ${S.endYear} 年，你想要過的生活。<br>最多 5 條，每一條都會長成一叢枝葉。</p>
+        <button data-act="add-vision" class="mt-3 px-5 py-2.5 rounded-2xl bg-ghibli-moss text-white text-sm font-black font-round shadow-md ghibli-tap">寫下第一條願景</button>
+      </div>`;
+    return;
+  }
+  list.innerHTML = S.visions.map(v => {
+    const f = FACETS[v.facet] || FACETS.work;
+    const isFaint = faint.has(v.id);
+    return `
+      <button data-act="edit-vision" data-id="${v.id}" class="w-full text-left flex items-start gap-2.5 px-3 py-2 rounded-2xl bg-white/80 border border-ghibli-wood/10 ghibli-tap">
+        <span class="mt-1 w-3 h-3 rounded-full flex-shrink-0" style="background:${f.color}; opacity:${isFaint ? .45 : 1}"></span>
+        <span class="min-w-0 flex-1">
+          <span class="block text-[13px] font-bold text-ghibli-woodDark leading-snug">${esc(v.title)}</span>
+          ${isFaint ? `<span class="block text-[10px] font-bold text-ghibli-wood/70 mt-0.5">${S.currentYear} 年還沒有根長在這裡</span>` : ''}
+        </span>
+        <span class="text-[10px] font-bold px-1.5 py-0.5 rounded-md flex-shrink-0" style="background:${f.soft}; color:#4A3B32">${f.name}</span>
+      </button>`;
+  }).join('') + (S.visions.length < MAX_VISIONS
+    ? `<button data-act="add-vision" class="w-full py-2 rounded-2xl border border-dashed border-ghibli-moss/40 text-xs font-bold text-ghibli-moss ghibli-tap">＋ 再寫一條願景</button>` : '');
+}
+
+function renderGround() {
+  $('foxSitSlot').innerHTML = foxSitting();
+  const { lit, total } = litCount();
+  $('litNum').textContent = lit;
+  $('litTotal').textContent = ` / ${total}`;
+}
+
+function actionDot(state) {
+  const ink = '#6B4E3A';
+  if (state === 'done') return `<svg viewBox="0 0 20 20" class="act-dot"><circle cx="10" cy="10" r="7.5" fill="#F2C46A" stroke="${ink}" stroke-width="1.5"/><path d="M6.5 10.2l2.4 2.4 4.6-5" fill="none" stroke="${ink}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  if (state === 'doing') return `<svg viewBox="0 0 20 20" class="act-dot"><circle cx="10" cy="10" r="7.5" fill="#fff" stroke="${ink}" stroke-width="1.5"/><path d="M10 2.5 A7.5 7.5 0 0 1 10 17.5 Z" fill="#F8D99A"/><circle cx="10" cy="10" r="7.5" fill="none" stroke="${ink}" stroke-width="1.5"/></svg>`;
+  return `<svg viewBox="0 0 20 20" class="act-dot"><circle cx="10" cy="10" r="7.5" fill="#fff" stroke="#B89A7C" stroke-width="1.5" stroke-dasharray="2.5 2.2"/></svg>`;
+}
+const STATE_NAME = { todo: '還沒開始', doing: '進行中', done: '完成' };
+const NEXT_STATE = { todo: 'doing', doing: 'done', done: 'todo' };
+
+function resultCard(r, { expanded }) {
+  const v = visionOf(r.visionId);
+  const f = v ? (FACETS[v.facet] || FACETS.work) : { color: '#B89A7C', soft: '#F3E9DA', name: '' };
+  const pr = progressOf(r);
+  const acts = actionsOf(r.id);
+  const canAdd = expanded && acts.length < maxActions(r.year);
+  return `
+    <div class="root-card ${expanded && pr.done ? 'lit' : ''} ml-4 rounded-2xl bg-white/90 border border-ghibli-wood/10 p-3.5 shadow-xs" data-rid="${r.id}">
+      <div class="flex items-start justify-between gap-2">
+        <button data-act="edit-result" data-id="${r.id}" class="min-w-0 text-left flex-1">
+          <span class="inline-flex items-center gap-1 text-[10px] font-bold px-1.5 py-0.5 rounded-md max-w-full" style="background:${f.soft}; color:#4A3B32">
+            <span class="w-2 h-2 rounded-full flex-shrink-0" style="background:${f.color}"></span><span class="truncate">${v ? esc(v.title) : '請重新連回一條願景'}</span>
+          </span>
+          <span class="block text-[14px] font-black font-round text-ghibli-woodDark mt-1 leading-snug">${esc(r.title)}</span>
+        </button>
+        ${expanded ? `<span class="text-[11px] font-black font-round flex-shrink-0 ${pr.done ? 'text-ghibli-sun' : 'text-ghibli-wood/80'}">${pr.done ? '已達成' : pr.pct + '%'}</span>` : ''}
+      </div>
+      ${expanded ? `
+        <div class="mt-2 h-1.5 rounded-full bg-ghibli-cream overflow-hidden"><div class="h-full rounded-full transition-all duration-700" style="width:${pr.pct}%; background:linear-gradient(90deg,#F2D58A,#E3A646)"></div></div>
+        <p class="mt-1 text-[10px] font-bold text-ghibli-wood/80 text-right">${pr.label}</p>
+        <div class="mt-1.5 space-y-1">
+          ${acts.map(a => `
+            <button data-act="cycle-action" data-id="${a.id}" class="w-full flex items-center gap-2 py-1 text-left ghibli-tap" aria-label="${esc(a.title)}：${STATE_NAME[a.state]}，點一下切換">
+              ${actionDot(a.state)}
+              <span class="flex-1 min-w-0 text-[13px] font-bold ${a.state === 'done' ? 'text-ghibli-wood/60 line-through decoration-ghibli-sun/70' : 'text-ghibli-woodDark'}">${esc(a.title)}</span>
+              <span class="text-[10px] font-bold text-ghibli-wood/60 flex-shrink-0">${STATE_NAME[a.state]}</span>
+            </button>`).join('')}
+          ${canAdd ? `
+            <form data-act="add-action" data-id="${r.id}" class="flex items-center gap-2 pt-1">
+              <span class="act-dot rounded-full border-[1.5px] border-dashed border-ghibli-wood/30 flex-shrink-0"></span>
+              <input name="t" maxlength="24" autocomplete="off" placeholder="${acts.length ? '再加一個關鍵行動' : '寫下第一個關鍵行動'}" class="flex-1 min-w-0 bg-transparent border-b border-dashed border-ghibli-wood/25 py-1 font-bold text-ghibli-woodDark focus:outline-none focus:border-ghibli-fox" style="font-size:16px">
+              <button class="text-xs font-black text-ghibli-fox px-1">加入</button>
+            </form>` : ''}
+        </div>` : ''}
+    </div>`;
+}
+
+function renderThisYear() {
+  const y = S.currentYear, rs = resultsIn(y), cap = maxResults(y);
+  const noVision = !S.visions.length;
+  $('thisYear').innerHTML = `
+    <div class="flex items-baseline justify-between px-0.5 mb-3 mt-1">
+      <h2 class="text-sm font-black font-round text-ghibli-woodDark">${y}<span class="text-xs text-ghibli-wood font-bold ml-1.5">${isWarm(y) ? '暖身的根' : '今年的根'}</span></h2>
+      <span class="text-[11px] font-bold text-ghibli-wood/70">${isWarm(y) ? `最多 ${cap} 個結果、${maxActions(y)} 個行動` : `結果 ${rs.length} / ${cap}`}</span>
+    </div>
+    <div class="space-y-5">
+      ${rs.map(r => resultCard(r, { expanded: true })).join('')}
+      ${rs.length < cap ? `
+        <button data-act="add-result" data-year="${y}" ${noVision ? 'disabled' : ''} class="ml-4 w-[calc(100%-1rem)] py-3 rounded-2xl border-2 border-dashed border-ghibli-wood/25 text-xs font-bold text-ghibli-wood ghibli-tap">
+          ${noVision ? '先在樹冠寫下願景，根才有地方連' : `＋ ${rs.length ? '再長一段根' : `${y} 年要達成什麼？`}`}
+        </button>` : ''}
+    </div>`;
+}
+
+function renderFuture() {
+  const wrap = $('futureYears');
+  const years = [];
+  for (let y = S.currentYear + 1; y <= S.endYear; y++) years.push(y);
+  wrap.innerHTML = years.map(y => {
+    const rs = resultsIn(y), cap = maxResults(y);
+    return `
+      <details class="group rounded-2xl bg-white/50 border border-dashed border-ghibli-wood/20" ${rs.length ? '' : ''}>
+        <summary class="list-none cursor-pointer px-3.5 py-2.5 flex items-center justify-between">
+          <span class="text-[13px] font-black font-round text-ghibli-woodDark">${y}<span class="text-[11px] font-bold text-ghibli-wood/70 ml-1.5">只寫結果</span></span>
+          <span class="text-[11px] font-bold text-ghibli-wood/70">${rs.length ? rs.map(r => esc(r.title)).join('、').slice(0, 18) + (rs.map(r => r.title).join('、').length > 18 ? '…' : '') : '還空著'} ›</span>
+        </summary>
+        <div class="px-3.5 pb-3.5 space-y-3">
+          ${rs.map(r => resultCard(r, { expanded: false })).join('')}
+          ${rs.length < cap ? `<button data-act="add-result" data-year="${y}" ${S.visions.length ? '' : 'disabled'} class="ml-4 w-[calc(100%-1rem)] py-2 rounded-xl border border-dashed border-ghibli-wood/25 text-[11px] font-bold text-ghibli-wood ghibli-tap">＋ ${y} 年的結果</button>` : ''}
+          <p class="text-[10px] font-bold text-ghibli-wood/60">等 ${y} 年變成「今年」，再展開關鍵行動。</p>
+        </div>
+      </details>`;
+  }).join('');
+}
+
+function renderRings() {
+  const wrap = $('ringsWrap');
+  if (!S.rings.length) { wrap.innerHTML = ''; return; }
+  const OUT = { done: '達成', carry: '延續', drop: '放下' };
+  wrap.innerHTML = `
+    <h2 class="text-xs font-black text-ghibli-wood tracking-wider mb-2 px-0.5">年輪</h2>
+    <div class="space-y-2">
+    ${S.rings.slice().sort((a, b) => b.year - a.year).map(g => `
+      <details class="rounded-2xl bg-[#EADDC9] border border-ghibli-wood/15">
+        <summary class="list-none cursor-pointer px-3.5 py-2.5 flex items-center gap-3">
+          <svg viewBox="0 0 32 32" class="w-8 h-8 flex-shrink-0" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="#E9C99A" stroke="#6B4E3A" stroke-width="1.4"/><circle cx="16" cy="16" r="10" fill="none" stroke="#B48A66" stroke-width="1.1"/><circle cx="16" cy="16" r="6" fill="none" stroke="#B48A66" stroke-width="1.1"/><circle cx="16" cy="16" r="2.2" fill="#B48A66"/></svg>
+          <span class="min-w-0 flex-1">
+            <span class="block text-[13px] font-black font-round text-ghibli-woodDark">${g.year}</span>
+            <span class="block text-[11px] font-bold text-ghibli-wood truncate">${g.sentence ? '「' + esc(g.sentence) + '」' : `點亮 ${g.lit} / ${g.total} 段根`}</span>
+          </span>
+        </summary>
+        <div class="px-3.5 pb-3 space-y-1.5">
+          <p class="text-[11px] font-bold text-ghibli-wood">點亮 ${g.lit} / ${g.total} 段根 · ${g.reviews} 次回顧</p>
+          ${g.results.map(r => `<div class="flex items-center justify-between gap-2 text-[12px] font-bold text-ghibli-woodDark"><span class="truncate">${esc(r.title)}</span><span class="text-[10px] px-1.5 py-0.5 rounded-md bg-white/70 flex-shrink-0">${OUT[r.outcome] || ''}</span></div>`).join('')}
+        </div>
+      </details>`).join('')}
+    </div>`;
+}
+
+function lastReview() { return S.reviews.length ? S.reviews.reduce((a, b) => (a.ts > b.ts ? a : b)) : null; }
+function reviewedThisWeek() { const w = startOfWeek(Date.now()); return S.reviews.some(r => r.ts >= w); }
+
+function renderQuestion() {
+  $('questionFox').innerHTML = foxHead('w-full h-full');
+  const isSat = new Date().getDay() === 6;
+  const done = reviewedThisWeek();
+  const last = lastReview();
+  $('questionBtn').classList.toggle('q-glow', isSat && !done);
+  $('questionSub').textContent = done
+    ? `這週已經回顧過了 · ${md(last.ts)}`
+    : isSat ? '今天是回顧日 · 約 3 分鐘' : `每週六回顧${last ? ` · 上次 ${md(last.ts)}` : ' · 約 3 分鐘'}`;
+}
+
+function needsRitual() {
+  const now = new Date();
+  return now.getFullYear() > S.currentYear || (now.getFullYear() === S.currentYear && now.getMonth() === 11);
+}
+function renderBanner() {
+  const b = $('ritualBanner');
+  if (!needsRitual() || !resultsIn(S.currentYear).length) { b.classList.add('hidden'); return; }
+  b.classList.remove('hidden');
+  b.innerHTML = `
+    <button data-act="open-ritual" class="w-full flex items-center gap-3 px-4 py-3 rounded-2xl bg-ghibli-sunSoft border border-ghibli-sun/40 text-left ghibli-tap">
+      <svg viewBox="0 0 32 32" class="w-8 h-8 flex-shrink-0" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="#F8E2B8" stroke="#6B4E3A" stroke-width="1.4"/><circle cx="16" cy="16" r="9" fill="none" stroke="#C99A5B" stroke-width="1.1"/><circle cx="16" cy="16" r="4" fill="none" stroke="#C99A5B" stroke-width="1.1"/></svg>
+      <span class="flex-1 min-w-0"><span class="block text-[13px] font-black font-round text-ghibli-woodDark">${S.currentYear} 年要收成年輪了</span><span class="block text-[11px] font-bold text-ghibli-wood">讀完今年的回答，決定每段根的去處</span></span>
+    </button>`;
+}
+
+// ---------- 6. 抽屜 ----------
+let openSheetId = null;
+function openSheet(id) {
+  sound.tap();
+  const s = $(id);
+  s.classList.remove('opacity-0', 'pointer-events-none');
+  s.querySelector('.sheet-body').classList.remove('translate-y-full');
+  openSheetId = id;
+}
+function closeSheet(id = openSheetId) {
+  if (!id) return;
+  const s = $(id);
+  s.classList.add('opacity-0', 'pointer-events-none');
+  s.querySelector('.sheet-body').classList.add('translate-y-full');
+  if (document.activeElement) document.activeElement.blur();
+  if (openSheetId === id) openSheetId = null;
+}
+document.querySelectorAll('.close-x').forEach(b => {
+  b.innerHTML = '<svg viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>';
+});
+document.querySelectorAll('.sheet').forEach(s => {
+  s.addEventListener('click', (e) => { if (e.target === s) { sound.tap(); closeSheet(s.id); } });
+  s.querySelectorAll('[data-close]').forEach(b => b.addEventListener('click', () => { sound.tap(); closeSheet(s.id); }));
+});
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && openSheetId) closeSheet(); });
+
+// 兩下確認（不跳系統對話框）
+function armTwice(btn, label, armedLabel, onConfirm) {
+  if (btn.dataset.armed) { onConfirm(); return; }
+  btn.dataset.armed = '1'; btn.textContent = armedLabel; btn.classList.add('text-ghibli-terracotta');
+  setTimeout(() => { if (!btn.isConnected) return; delete btn.dataset.armed; btn.textContent = label; btn.classList.remove('text-ghibli-terracotta'); }, 3000);
+}
+
+// ---------- 7. Toast ----------
+let toastTimer = null;
+function toast(msg, { undo } = {}) {
+  const t = $('toast'), u = $('toastUndoBtn'), dur = undo ? 5000 : 2600;
+  clearTimeout(toastTimer);
+  $('toastMsg').textContent = msg;
+  u.classList.toggle('hidden', !undo);
+  u.onclick = undo ? () => { sound.tap(); clearTimeout(toastTimer); t.classList.add('hidden'); t.classList.remove('flex'); undo(); } : null;
+  t.classList.remove('hidden', 'toast-float'); t.classList.add('flex');
+  t.style.setProperty('--toast-dur', dur + 'ms'); void t.offsetWidth; t.classList.add('toast-float');
+  toastTimer = setTimeout(() => { t.classList.add('hidden'); t.classList.remove('flex'); }, dur);
+}
+const snapshot = () => JSON.parse(JSON.stringify(S));
+function restore(snap, msg) { S = snap; save(); renderAll(); toast(msg); }
+
+// ---------- 8. 願景 ----------
+let editingVision = null, vFacet = 'work';
+function openVision(id) {
+  editingVision = id ? visionOf(id) : null;
+  if (!editingVision && S.visions.length >= MAX_VISIONS) { toast('樹冠最多 5 條願景，先改寫或刪掉一條'); return; }
+  $('visionSheetTitle').textContent = editingVision ? '改寫這條願景' : '寫下一條願景';
+  $('visionSheetSub').textContent = editingVision ? '改寫時，舊的版本會留在年輪裡' : `想像 ${S.endYear} 年某個平凡的日子，你過著什麼樣的生活？`;
+  $('vTitle').value = editingVision ? editingVision.title : '';
+  $('vDesc').value = editingVision ? (editingVision.desc || '') : '';
+  vFacet = editingVision ? editingVision.facet : 'work';
+  renderFacetChips();
+  $('vError').classList.add('hidden');
+  $('vDelete').classList.toggle('hidden', !editingVision);
+  $('vDelete').textContent = '刪除這條願景';
+  delete $('vDelete').dataset.armed;
+  $('vSave').textContent = editingVision ? '儲存' : '種進樹冠';
+  openSheet('sheetVision');
+}
+function renderFacetChips() {
+  $('vFacets').innerHTML = Object.entries(FACETS).map(([k, f]) => `
+    <button type="button" data-facet="${k}" class="px-3 py-1.5 rounded-full text-xs font-bold border-2 ghibli-tap" style="background:${vFacet === k ? f.soft : '#fff'}; border-color:${vFacet === k ? f.color : 'rgba(74,59,50,.12)'}; color:#2C221C">
+      <span class="inline-block w-2 h-2 rounded-full mr-1 align-middle" style="background:${f.color}"></span>${f.name}
+    </button>`).join('');
+}
+$('vFacets').addEventListener('click', (e) => { const b = e.target.closest('[data-facet]'); if (!b) return; sound.tap(); vFacet = b.dataset.facet; renderFacetChips(); });
+$('vSave').addEventListener('click', () => {
+  const title = $('vTitle').value.trim(), desc = $('vDesc').value.trim();
+  if (!title) { $('vError').textContent = '寫一句就好，例如「身體健康，每年去一個新的國家」'; $('vError').classList.remove('hidden'); return; }
+  if (editingVision) {
+    if (editingVision.title !== title) (editingVision.history = editingVision.history || []).push({ title: editingVision.title, at: Date.now() });
+    Object.assign(editingVision, { title, desc, facet: vFacet });
+    toast('願景已改寫');
+  } else {
+    S.visions.push({ id: uid(), title, desc, facet: vFacet, createdAt: Date.now(), history: [] });
+    sound.plant();
+    foxSay(S.visions.length === 1 ? '第一叢枝葉長出來了，接著往下長根吧' : '樹冠又茂密了一點');
+    toast('種進樹冠了');
+  }
+  save(); renderAll(); closeSheet('sheetVision');
+});
+$('vDelete').addEventListener('click', (e) => {
+  const linked = S.results.filter(r => r.visionId === editingVision.id);
+  if (linked.length) { $('vError').textContent = `底下還有 ${linked.length} 個結果，先把它們改連到其他願景`; $('vError').classList.remove('hidden'); return; }
+  armTwice(e.currentTarget, '刪除這條願景', '再點一次確定刪除', () => {
+    const snap = snapshot();
+    S.visions = S.visions.filter(v => v.id !== editingVision.id);
+    save(); renderAll(); closeSheet('sheetVision');
+    toast('已刪除這條願景', { undo: () => restore(snap, '已復原') });
+  });
+});
+
+// ---------- 9. 結果 ----------
+let editingResult = null, rYear = null, rVision = null;
+function openResult(id, year) {
+  editingResult = id ? resultOf(id) : null;
+  rYear = editingResult ? editingResult.year : Number(year);
+  rVision = editingResult ? editingResult.visionId : (S.visions[0] && S.visions[0].id);
+  $('resultSheetTitle').textContent = editingResult ? '調整這段根' : '長出一段根';
+  $('rTitle').value = editingResult ? editingResult.title : '';
+  const n = editingResult && editingResult.num;
+  $('rHasNum').checked = !!n;
+  $('rNumFields').classList.toggle('hidden', !n);
+  $('rTarget').value = n ? fmt(n.target) : '';
+  $('rCurrent').value = n ? fmt(n.current) : '';
+  $('rUnit').value = n ? (n.unit || '') : '';
+  renderResultYears(); renderResultVisions(); renderResultActions();
+  $('rError').classList.add('hidden');
+  $('rDelete').classList.toggle('hidden', !editingResult);
+  $('rDelete').textContent = '刪除這個結果'; delete $('rDelete').dataset.armed;
+  $('rSave').textContent = editingResult ? '儲存' : '讓根長出來';
+  openSheet('sheetResult');
+}
+function yearHasRoom(y) {
+  const used = resultsIn(y).filter(r => !editingResult || r.id !== editingResult.id).length;
+  return used < maxResults(y);
+}
+function renderResultYears() {
+  const ys = []; for (let y = S.currentYear; y <= S.endYear; y++) ys.push(y);
+  $('rYears').innerHTML = ys.map(y => {
+    const on = y === rYear, room = yearHasRoom(y) || on;
+    return `<button type="button" data-year="${y}" ${room ? '' : 'disabled'} class="px-3 py-1.5 rounded-full text-xs font-bold border-2 ghibli-tap ${on ? 'bg-ghibli-paleLeaf border-ghibli-moss text-ghibli-moss' : 'bg-white border-ghibli-wood/10 text-ghibli-wood'}">${y}${y === S.currentYear ? ' 今年' : ''}${room ? '' : ' 已滿'}</button>`;
+  }).join('');
+}
+function renderResultVisions() {
+  $('rVisions').innerHTML = S.visions.map(v => {
+    const f = FACETS[v.facet] || FACETS.work, on = v.id === rVision;
+    return `<button type="button" data-vid="${v.id}" class="w-full text-left flex items-center gap-2 px-3 py-2 rounded-xl border-2 ghibli-tap" style="background:${on ? f.soft : '#fff'}; border-color:${on ? f.color : 'rgba(74,59,50,.10)'}">
+      <span class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background:${f.color}"></span><span class="text-[13px] font-bold text-ghibli-woodDark truncate">${esc(v.title)}</span></button>`;
+  }).join('');
+}
+function renderResultActions() {
+  const show = editingResult && actionsOf(editingResult.id).length;
+  $('rActionsWrap').classList.toggle('hidden', !show);
+  if (!show) return;
+  $('rActions').innerHTML = actionsOf(editingResult.id).map(a => `
+    <div class="flex items-center gap-2">
+      <input data-aid="${a.id}" value="${esc(a.title)}" maxlength="24" class="ra-title flex-1 min-w-0 px-3 py-1.5 rounded-xl border border-ghibli-wood/15 font-bold text-ghibli-woodDark bg-white">
+      <button type="button" data-del-action="${a.id}" class="text-[11px] font-bold text-ghibli-wood/60 px-2 py-1.5">刪除</button>
+    </div>`).join('');
+}
+$('rYears').addEventListener('click', (e) => { const b = e.target.closest('[data-year]'); if (!b || b.disabled) return; sound.tap(); rYear = Number(b.dataset.year); renderResultYears(); });
+$('rVisions').addEventListener('click', (e) => { const b = e.target.closest('[data-vid]'); if (!b) return; sound.tap(); rVision = b.dataset.vid; renderResultVisions(); });
+$('rHasNum').addEventListener('change', () => $('rNumFields').classList.toggle('hidden', !$('rHasNum').checked));
+['rTarget', 'rCurrent'].forEach(id => $(id).addEventListener('input', (e) => {
+  const n = parseNum(e.target.value); if (e.target.value.trim() === '') return;
+  if (Number.isFinite(n) && !/\.$/.test(e.target.value)) e.target.value = fmt(n);
+}));
+$('rActions').addEventListener('click', (e) => {
+  const b = e.target.closest('[data-del-action]'); if (!b) return;
+  armTwice(b, '刪除', '確定？', () => { S.actions = S.actions.filter(a => a.id !== b.dataset.delAction); save(); renderResultActions(); renderAll(); });
+});
+$('rSave').addEventListener('click', () => {
+  const err = (m) => { $('rError').textContent = m; $('rError').classList.remove('hidden'); };
+  const title = $('rTitle').value.trim();
+  if (!title) return err('寫下這段根要長成的樣子，例如「拿到外商的錄取」');
+  if (!rVision || !visionOf(rVision)) return err('每個結果都要連回一條願景');
+  if (!yearHasRoom(rYear)) return err(`${rYear} 年的位置已經滿了`);
+  let num = null;
+  if ($('rHasNum').checked) {
+    const target = parseNum($('rTarget').value), current = $('rCurrent').value.trim() === '' ? 0 : parseNum($('rCurrent').value);
+    if (!(target > 0)) return err('目標數字要大於 0');
+    if (!Number.isFinite(current)) return err('目前數字看不懂，請只填數字');
+    num = { target, current, unit: $('rUnit').value.trim() };
+  }
+  document.querySelectorAll('.ra-title').forEach(inp => { const a = S.actions.find(x => x.id === inp.dataset.aid); if (a && inp.value.trim()) a.title = inp.value.trim(); });
+  if (editingResult) {
+    Object.assign(editingResult, { title, year: rYear, visionId: rVision, num });
+    toast('已更新');
+  } else {
+    S.results.push({ id: uid(), title, year: rYear, visionId: rVision, num, createdAt: Date.now() });
+    sound.plant();
+    foxSay(rYear === S.currentYear ? '根長出來了，下面寫上關鍵行動吧' : `${rYear} 年的根，先在土裡等著`);
+    toast('一段新的根');
+  }
+  save(); renderAll(); closeSheet('sheetResult');
+});
+$('rDelete').addEventListener('click', (e) => {
+  armTwice(e.currentTarget, '刪除這個結果', '再點一次確定刪除（行動也會刪除）', () => {
+    const snap = snapshot(), id = editingResult.id;
+    S.results = S.results.filter(r => r.id !== id);
+    S.actions = S.actions.filter(a => a.resultId !== id);
+    save(); renderAll(); closeSheet('sheetResult');
+    toast('已刪除這段根', { undo: () => restore(snap, '已復原') });
+  });
+});
+
+// ---------- 10. 主畫面互動（事件委派） ----------
+function glowCard(rid) {
+  const c = document.querySelector(`.root-card[data-rid="${rid}"]`);
+  if (!c) return; c.classList.remove('root-glow'); void c.offsetWidth; c.classList.add('root-glow');
+}
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-act]'); if (!b || b.tagName === 'FORM') return;
+  const act = b.dataset.act, id = b.dataset.id;
+  if (act === 'add-vision') openVision(null);
+  else if (act === 'edit-vision') openVision(id);
+  else if (act === 'add-result') { if (!S.visions.length) return; openResult(null, b.dataset.year); }
+  else if (act === 'edit-result') openResult(id);
+  else if (act === 'open-ritual') openRitual();
+  else if (act === 'cycle-action') {
+    const a = S.actions.find(x => x.id === id); if (!a) return;
+    const r = resultOf(a.resultId), wasDone = progressOf(r).done;
+    a.state = NEXT_STATE[a.state]; a.doneAt = a.state === 'done' ? Date.now() : null;
+    save(); renderAll();
+    if (a.state === 'done') {
+      glowCard(r.id);
+      if (!wasDone && progressOf(r).done) { sound.bloom(); foxSay(`「${r.title}」達成了，樹冠開了一朵花`); toast('樹冠開花了'); }
+      else { sound.glow(); toast('這段根亮起來了'); }
+    } else sound.tap();
+  }
+});
+document.addEventListener('submit', (e) => {
+  const f = e.target.closest('form[data-act="add-action"]'); if (!f) return;
+  e.preventDefault();
+  const t = f.t.value.trim(), r = resultOf(f.dataset.id); if (!t || !r) return;
+  if (actionsOf(r.id).length >= maxActions(r.year)) { toast(`每段根最多 ${maxActions(r.year)} 個行動`); return; }
+  S.actions.push({ id: uid(), resultId: r.id, title: t, state: 'todo', doneAt: null });
+  save(); sound.tap(); renderAll();
+  const next = document.querySelector(`form[data-act="add-action"][data-id="${r.id}"] input`);
+  if (next) next.focus({ preventScroll: true });
+});
+$('foxBtn').addEventListener('click', () => { sound.tap(); let t; do { t = FOX_GENERIC[Math.floor(Math.random() * FOX_GENERIC.length)]; } while (`小狐狸說：${t}` === $('foxQuote').textContent); foxSay(t); });
+$('settingsBtn').addEventListener('click', openSettings);
+
+// ---------- 11. 每週回顧 ----------
+let rv = null;
+function openReview() {
+  const cur = resultsIn(S.currentYear);
+  rv = { rest: false, feed: null, states: {}, nums: {} };
+  S.actions.forEach(a => { if (cur.some(r => r.id === a.resultId)) rv.states[a.id] = a.state; });
+  const d = new Date();
+  $('reviewDate').textContent = `${d.getFullYear()} 年 ${d.getMonth() + 1} 月 ${d.getDate()} 日 · 週${WEEK[d.getDay()]}`;
+  $('rvAnswer').value = ''; $('rvCount').textContent = '0 / 200';
+  $('rvAnswer').disabled = false;
+  renderReviewParts();
+  openSheet('sheetReview');
+}
+function renderReviewParts() {
+  const cur = resultsIn(S.currentYear);
+  $('rvRest').className = `px-3 py-1.5 rounded-full border text-xs font-bold ghibli-tap ${rv.rest ? 'bg-ghibli-paleLeaf border-ghibli-moss text-ghibli-moss' : 'border-ghibli-wood/25 text-ghibli-wood'}`;
+  $('rvRest').textContent = rv.rest ? '✓ 這週在休息' : '這週在休息';
+  $('rvAnswer').classList.toggle('opacity-50', rv.rest);
+
+  $('rvFeedWrap').classList.toggle('hidden', !cur.length || rv.rest);
+  $('rvFeed').innerHTML = cur.map(r => {
+    const v = visionOf(r.visionId), f = v ? FACETS[v.facet] : FACETS.work, on = rv.feed === r.id;
+    return `<button type="button" data-feed="${r.id}" class="px-3 py-1.5 rounded-full text-xs font-bold border-2 ghibli-tap max-w-full truncate" style="background:${on ? f.soft : '#fff'}; border-color:${on ? f.color : 'rgba(74,59,50,.12)'}; color:#2C221C">${esc(r.title)}</button>`;
+  }).join('');
+
+  const acts = S.actions.filter(a => a.id in rv.states);
+  $('rvActionsWrap').classList.toggle('hidden', !acts.length);
+  $('rvActions').innerHTML = acts.map(a => `
+    <div class="rounded-xl bg-ghibli-cream/80 border border-ghibli-wood/10 p-2.5">
+      <p class="text-[12px] font-bold text-ghibli-woodDark mb-1.5">${esc(a.title)}</p>
+      <div class="grid grid-cols-3 gap-1.5">
+        ${['todo', 'doing', 'done'].map(s => `<button type="button" data-rv-act="${a.id}" data-state="${s}" class="py-1.5 rounded-lg text-[11px] font-bold border ${rv.states[a.id] === s ? (s === 'done' ? 'bg-[#FBEFD6] border-ghibli-sun text-ghibli-woodDark' : 'bg-white border-ghibli-wood/40 text-ghibli-woodDark') : 'bg-white/60 border-transparent text-ghibli-wood/70'}">${STATE_NAME[s]}</button>`).join('')}
+      </div>
+    </div>`).join('');
+
+  const numeric = cur.filter(r => r.num);
+  $('rvNumsWrap').classList.toggle('hidden', !numeric.length);
+  $('rvNums').innerHTML = numeric.map(r => `
+    <label class="flex items-center gap-2 rounded-xl bg-ghibli-sunSoft/50 border border-ghibli-sun/20 p-2.5">
+      <span class="flex-1 min-w-0 text-[12px] font-bold text-ghibli-woodDark truncate">${esc(r.title)}</span>
+      <input data-rv-num="${r.id}" inputmode="decimal" value="${r.id in rv.nums ? rv.nums[r.id] : fmt(r.num.current)}" class="w-24 px-2 py-1 rounded-lg border border-ghibli-wood/20 font-bold text-right bg-white">
+      <span class="text-[11px] font-bold text-ghibli-wood w-12 truncate">/ ${fmt(r.num.target)}${esc(r.num.unit || '')}</span>
+    </label>`).join('');
+  updateReviewSave();
+}
+function updateReviewSave() { $('rvSave').disabled = !(rv.rest || $('rvAnswer').value.trim()); }
+$('rvAnswer').addEventListener('input', () => { $('rvCount').textContent = `${$('rvAnswer').value.length} / 200`; updateReviewSave(); });
+$('rvRest').addEventListener('click', () => { sound.tap(); rv.rest = !rv.rest; if (rv.rest) rv.feed = null; renderReviewParts(); });
+$('rvFeed').addEventListener('click', (e) => { const b = e.target.closest('[data-feed]'); if (!b) return; sound.tap(); rv.feed = rv.feed === b.dataset.feed ? null : b.dataset.feed; renderReviewParts(); });
+$('rvActions').addEventListener('click', (e) => { const b = e.target.closest('[data-rv-act]'); if (!b) return; sound.tap(); rv.states[b.dataset.rvAct] = b.dataset.state; renderReviewParts(); });
+$('rvNums').addEventListener('input', (e) => { const i = e.target.closest('[data-rv-num]'); if (!i) return; rv.nums[i.dataset.rvNum] = i.value; });
+$('rvSave').addEventListener('click', () => {
+  const snap = snapshot();
+  const answer = $('rvAnswer').value.trim();
+  const changed = [], bloomed = [];
+  const beforeDone = new Set(resultsIn(S.currentYear).filter(r => progressOf(r).done).map(r => r.id));
+  Object.entries(rv.states).forEach(([aid, st]) => {
+    const a = S.actions.find(x => x.id === aid);
+    if (a && a.state !== st) { a.state = st; a.doneAt = st === 'done' ? Date.now() : null; changed.push(aid); }
+  });
+  const numbers = {};
+  Object.entries(rv.nums).forEach(([rid, val]) => {
+    const r = resultOf(rid), n = parseNum(val);
+    if (r && r.num && Number.isFinite(n) && n !== r.num.current) { r.num.current = n; numbers[rid] = n; }
+  });
+  resultsIn(S.currentYear).forEach(r => { if (!beforeDone.has(r.id) && progressOf(r).done) bloomed.push(r); });
+  S.reviews.push({ id: uid(), ts: Date.now(), year: S.currentYear, answer: rv.rest ? '' : answer, rest: rv.rest, resultId: rv.rest ? null : rv.feed, changed, numbers });
+  save(); renderAll(); closeSheet('sheetReview');
+
+  const toGlow = new Set([rv.feed, ...changed.map(aid => (S.actions.find(a => a.id === aid) || {}).resultId), ...Object.keys(numbers)].filter(Boolean));
+  setTimeout(() => toGlow.forEach(glowCard), 250);
+  if (bloomed.length) { sound.bloom(); foxSay(`「${bloomed[0].title}」達成了，樹冠開了一朵花`); }
+  else if (rv.rest) { sound.glow(); foxSay('休息也是往前走的一部分'); }
+  else if (rv.feed) { sound.plant(); foxSay(`「${resultOf(rv.feed).title}」的根又長長了一點`); }
+  else { sound.plant(); foxSay(FOX_GENERIC[1 + Math.floor(Math.random() * (FOX_GENERIC.length - 1))]); }
+  toast(rv.rest ? '好好休息，下週見' : '這一週種下了', { undo: () => restore(snap, '已復原這次回顧') });
+});
+$('questionBtn').addEventListener('click', openReview);
+
+// ---------- 12. 所有回答 ----------
+function openAnswers() {
+  const list = S.reviews.slice().sort((a, b) => b.ts - a.ts);
+  $('answersSub').textContent = list.length ? `共 ${list.length} 則 · 刪除回答不會改動行動的狀態` : '';
+  $('answersList').innerHTML = list.length ? list.map(r => {
+    const res = r.resultId && resultOf(r.resultId);
+    return `<div class="rounded-2xl bg-ghibli-cream border border-ghibli-wood/10 p-3">
+      <div class="flex items-center justify-between gap-2">
+        <span class="text-[11px] font-bold text-ghibli-fox">${ymd(r.ts)}${r.rest ? ' · 休息週' : ''}</span>
+        <button data-del-review="${r.id}" class="text-[10px] font-bold text-ghibli-wood/50 px-1">刪除</button>
+      </div>
+      ${r.rest ? '<p class="text-[13px] font-bold text-ghibli-wood mt-1">這週在休息。</p>' : `<p class="text-[13px] font-bold text-ghibli-woodDark mt-1 leading-relaxed whitespace-pre-wrap">${esc(r.answer)}</p>`}
+      ${res ? `<p class="text-[10px] font-bold text-ghibli-wood/70 mt-1.5">餵給：${esc(res.title)}</p>` : ''}
+    </div>`;
+  }).join('') : '<p class="text-center text-xs font-bold text-ghibli-wood py-6">還沒有回答。週六回來，寫下第一句吧。</p>';
+  if (openSheetId) closeSheet();
+  openSheet('sheetAnswers');
+}
+$('answersList').addEventListener('click', (e) => {
+  const b = e.target.closest('[data-del-review]'); if (!b) return;
+  armTwice(b, '刪除', '確定刪除？', () => {
+    const snap = snapshot();
+    S.reviews = S.reviews.filter(r => r.id !== b.dataset.delReview);
+    save(); renderAll(); openAnswers();
+    toast('已刪除這則回答', { undo: () => { restore(snap, '已復原'); } });
+  });
+});
+
+// ---------- 13. 年輪儀式 ----------
+let ritual = null;
+function openRitual() {
+  const y = S.currentYear, rs = resultsIn(y);
+  ritual = { outcomes: {} };
+  rs.forEach(r => { ritual.outcomes[r.id] = progressOf(r).done ? 'done' : 'carry'; });
+  fitCarryCapacity();
+  const answers = S.reviews.filter(r => r.year === y).sort((a, b) => a.ts - b.ts);
+  $('ritualTitle').textContent = `收成 ${y} 年的年輪`;
+  $('ritualAnswersTitle').textContent = `${y} 年的 ${answers.length} 則回答`;
+  $('ritualAnswers').innerHTML = answers.length ? answers.map(r => `
+    <div class="text-[12px] leading-relaxed"><span class="font-bold text-ghibli-fox mr-1.5">${md(r.ts)}</span><span class="font-bold ${r.rest ? 'text-ghibli-wood/70' : 'text-ghibli-woodDark'}">${r.rest ? '休息週' : esc(r.answer)}</span></div>`).join('')
+    : '<p class="text-[12px] font-bold text-ghibli-wood">這一年還沒有回答。沒關係，明年從第一個週六開始。</p>';
+  $('ritualSentence').value = '';
+  renderRitualResults();
+  $('ritualSave').textContent = `收成年輪，迎接 ${y + 1}`;
+  if (openSheetId) closeSheet();
+  openSheet('sheetRitual');
+}
+function carryRoom() { return maxResults(S.currentYear + 1) - resultsIn(S.currentYear + 1).length; }
+function fitCarryCapacity() {
+  let room = carryRoom();
+  Object.keys(ritual.outcomes).forEach(id => { if (ritual.outcomes[id] === 'carry') { if (room > 0) room--; else ritual.outcomes[id] = 'drop'; } });
+}
+function renderRitualResults() {
+  const y = S.currentYear, rs = resultsIn(y);
+  const used = Object.values(ritual.outcomes).filter(o => o === 'carry').length, room = carryRoom();
+  const OPTS = [['done', '達成'], ['carry', `延續到 ${y + 1}`], ['drop', '放下']];
+  $('ritualResults').innerHTML = rs.length ? rs.map(r => {
+    const pr = progressOf(r);
+    return `<div class="rounded-xl bg-ghibli-cream border border-ghibli-wood/10 p-3">
+      <div class="flex items-center justify-between gap-2"><span class="text-[13px] font-bold text-ghibli-woodDark truncate">${esc(r.title)}</span><span class="text-[11px] font-bold text-ghibli-wood/70 flex-shrink-0">${pr.done ? '已達成' : pr.pct + '%'}</span></div>
+      <div class="grid grid-cols-3 gap-1.5 mt-2">
+        ${OPTS.map(([k, label]) => {
+          const on = ritual.outcomes[r.id] === k, blocked = k === 'carry' && !on && used >= room;
+          return `<button type="button" data-out="${r.id}" data-k="${k}" ${blocked ? 'disabled' : ''} class="py-1.5 rounded-lg text-[11px] font-bold border ${on ? 'bg-[#FBEFD6] border-ghibli-sun text-ghibli-woodDark' : 'bg-white/70 border-transparent text-ghibli-wood/70'}">${label}</button>`;
+        }).join('')}
+      </div>
+    </div>`;
+  }).join('') + (room <= used && rs.length > 1 ? `<p class="text-[10px] font-bold text-ghibli-wood/70">${y + 1} 年最多 ${maxResults(y + 1)} 個結果，延續的位置已經用完。</p>` : '')
+    : '<p class="text-[12px] font-bold text-ghibli-wood">這一年沒有結果，直接收成就好。</p>';
+}
+$('ritualResults').addEventListener('click', (e) => { const b = e.target.closest('[data-out]'); if (!b || b.disabled) return; sound.tap(); ritual.outcomes[b.dataset.out] = b.dataset.k; renderRitualResults(); });
+$('ritualSave').addEventListener('click', () => {
+  const snap = snapshot();
+  const y = S.currentYear, rs = resultsIn(y), { lit, total } = litCount();
+  const ring = {
+    year: y, sentence: $('ritualSentence').value.trim(), lit, total,
+    reviews: S.reviews.filter(r => r.year === y).length, closedAt: Date.now(),
+    results: rs.map(r => { const v = visionOf(r.visionId); return { title: r.title, visionTitle: v ? v.title : '', facet: v ? v.facet : '', outcome: ritual.outcomes[r.id], progress: progressOf(r).pct }; })
+  };
+  S.rings.push(ring);
+  rs.forEach(r => {
+    if (ritual.outcomes[r.id] === 'carry') {
+      r.year = y + 1;
+      S.actions = S.actions.filter(a => !(a.resultId === r.id && a.state === 'done'));   // 完成的行動留在年輪，沒做完的帶走
+    } else {
+      S.results = S.results.filter(x => x.id !== r.id);
+      S.actions = S.actions.filter(a => a.resultId !== r.id);
+    }
+  });
+  S.currentYear = y + 1;
+  if (S.endYear <= S.currentYear) S.endYear = S.currentYear + 4;
+  save(); renderAll(); closeSheet('sheetRitual');
+  sound.bloom(); foxSay(`${y} 年沉成了一圈年輪。${y + 1}，新的根要開始長了`);
+  toast(`${y} 年收成了`, { undo: () => restore(snap, '已復原，年輪還沒收成') });
+  $('mainScroll').scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+// ---------- 14. 設定 / 備份 ----------
+function openSettings() {
+  const sel = $('sEndYear');
+  sel.innerHTML = Array.from({ length: 10 }, (_, i) => S.currentYear + 1 + i).map(y => `<option value="${y}" ${y === S.endYear ? 'selected' : ''}>${y} 年（${y - S.currentYear} 年後）</option>`).join('');
+  $('sSound').textContent = sound.muted ? '已關閉' : '開啟中';
+  $('sRitual').textContent = `收成 ${S.currentYear} 年的年輪`;
+  const t = uiStore().lastBackup;
+  $('lastBackupText').textContent = t ? `上次匯出：${md(t)}` : '尚未匯出過';
+  $('importConfirm').classList.add('hidden');
+  openSheet('sheetSettings');
+}
+$('sEndYear').addEventListener('change', (e) => {
+  const y = Number(e.target.value);
+  const beyond = S.results.filter(r => r.year > y);
+  if (beyond.length) { toast(`${y} 年之後還有 ${beyond.length} 個結果，先移到更早的年份`); e.target.value = S.endYear; return; }
+  S.endYear = y; save(); renderAll(); toast(`願景改成 ${y} 年的生活`);
+});
+$('sSound').addEventListener('click', () => { sound.muted = !sound.muted; S.muted = sound.muted; save(); $('sSound').textContent = sound.muted ? '已關閉' : '開啟中'; if (!sound.muted) sound.glow(); });
+$('sAnswers').addEventListener('click', openAnswers);
+$('sRitual').addEventListener('click', () => {
+  const now = new Date();
+  if (!needsRitual() && !(now.getFullYear() === S.currentYear && now.getMonth() >= 9)) { toast('年輪會在 12 月開放收成'); return; }
+  openRitual();
+});
+
+const stamp = (d = new Date()) => `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`;
+function markBackedUp() { const u = uiStore(); u.lastBackup = Date.now(); uiSave(u); $('lastBackupText').textContent = `上次匯出：${md(u.lastBackup)}`; toast('備份檔已匯出，收好它喔'); }
+$('exportBtn').addEventListener('click', async () => {
+  sound.tap();
+  const json = JSON.stringify({ app: 'vision-forest', version: 1, exportedAt: new Date().toISOString(), data: S }, null, 2);
+  const name = `願景之森備份-${stamp()}.json`;
+  const download = () => {
+    const url = URL.createObjectURL(new Blob([json], { type: 'application/json' }));
+    const a = Object.assign(document.createElement('a'), { href: url, download: name });
+    document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
+    markBackedUp();
+  };
+  try {
+    const file = new File([json], name, { type: 'application/json' });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) { await navigator.share({ files: [file], title: '願景之森備份' }); markBackedUp(); return; }
+  } catch (e) { if (e && e.name === 'AbortError') return; }
+  download();
+});
+function sanitize(raw) {
+  const d = raw && raw.app === 'vision-forest' ? raw.data : null;
+  if (!d || !Array.isArray(d.visions) || !Array.isArray(d.results)) throw new Error('這不是願景之森的備份檔');
+  const out = Object.assign(blankState(), {
+    visions: d.visions.slice(0, MAX_VISIONS).map(v => ({ id: String(v.id), title: String(v.title || '').slice(0, 24), desc: String(v.desc || '').slice(0, 80), facet: FACETS[v.facet] ? v.facet : 'work', createdAt: Number(v.createdAt) || Date.now(), history: Array.isArray(v.history) ? v.history : [] })),
+    results: d.results.map(r => ({ id: String(r.id), title: String(r.title || '').slice(0, 24), year: Number(r.year), visionId: String(r.visionId), createdAt: Number(r.createdAt) || Date.now(),
+      num: r.num && Number(r.num.target) > 0 ? { target: Number(r.num.target), current: Number(r.num.current) || 0, unit: String(r.num.unit || '').slice(0, 6) } : null })),
+    actions: (d.actions || []).map(a => ({ id: String(a.id), resultId: String(a.resultId), title: String(a.title || '').slice(0, 24), state: ['todo', 'doing', 'done'].includes(a.state) ? a.state : 'todo', doneAt: a.doneAt || null })),
+    reviews: (d.reviews || []).map(r => ({ id: String(r.id), ts: Number(r.ts), year: Number(r.year), answer: String(r.answer || '').slice(0, 200), rest: !!r.rest, resultId: r.resultId || null, changed: Array.isArray(r.changed) ? r.changed : [], numbers: r.numbers || {} })),
+    rings: Array.isArray(d.rings) ? d.rings : [],
+    currentYear: Number(d.currentYear) || THIS_YEAR, endYear: Number(d.endYear) || THIS_YEAR + 5, muted: !!d.muted
+  });
+  if (out.results.some(r => !Number.isFinite(r.year))) throw new Error('備份檔裡的年份有誤');
+  return { state: out, exportedAt: raw.exportedAt };
+}
+let pendingImport = null;
+$('importBtn').addEventListener('click', () => { sound.tap(); $('importFile').value = ''; $('importFile').click(); });
+$('importFile').addEventListener('change', async (e) => {
+  const file = e.target.files && e.target.files[0]; if (!file) return;
+  try {
+    pendingImport = sanitize(JSON.parse(await file.text()));
+    const w = pendingImport.exportedAt ? new Date(pendingImport.exportedAt) : null, s = pendingImport.state;
+    $('importSummary').textContent = `這份備份${w && !isNaN(w) ? `（${ymd(w)} 匯出）` : ''}有 ${s.visions.length} 條願景、${s.results.length} 個結果、${s.reviews.length} 則回答。匯入後會取代目前手機上的資料。`;
+    $('importConfirm').classList.remove('hidden');
+  } catch (err) { pendingImport = null; toast(`無法匯入：${/[一-鿿]/.test(err.message) ? err.message : '這不是願景之森的備份檔'}`); }
+});
+$('importCancelBtn').addEventListener('click', () => { sound.tap(); pendingImport = null; $('importConfirm').classList.add('hidden'); });
+$('importOkBtn').addEventListener('click', () => {
+  if (!pendingImport) return;
+  const snap = snapshot();
+  S = pendingImport.state; sound.muted = S.muted; pendingImport = null;
+  save(); renderAll(); closeSheet('sheetSettings'); sound.plant();
+  toast('備份已匯入', { undo: () => restore(snap, '已還原成匯入前的資料') });
+});
+
+// ---------- 15. 即時儲存的保險、離線 ----------
+window.addEventListener('storage', (e) => { if (e.key === KEY) { S = load(); renderAll(); } });
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') save(); else renderQuestion(); });
+window.addEventListener('pagehide', save);
+if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
+if ('serviceWorker' in navigator && location.protocol === 'https:') {
+  window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+}
+
+// ---------- 16. 開場 ----------
+$('foxHeadSlot').innerHTML = foxHead('w-full h-full');
+renderAll();
+(() => {
+  const last = lastReview(), isSat = new Date().getDay() === 6;
+  if (!S.visions.length) foxSay('以終為始，先從樹冠寫下想要的生活');
+  else if (last && Date.now() - last.ts > 30 * 864e5) foxSay('好久不見，我們來看看根長得怎樣');
+  else if (isSat && !reviewedThisWeek()) foxSay('今天是回顧日，想聊聊這週嗎？');
+})();
+</script>
+</body>
+</html>
