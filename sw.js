@@ -1,5 +1,5 @@
 // 願景之森：離線快取。更新 App 內容時，把版本號 +1 即可讓手機抓到新版。
-const CACHE = 'vision-forest-v2';
+const CACHE = 'vision-forest-v3';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
@@ -14,7 +14,7 @@ self.addEventListener('fetch', (e) => {
   const url = new URL(req.url);
   // 頁面：先拿網路上的新版，沒網路時用快取
   if (req.mode === 'navigate') {
-    e.respondWith(fetch(req).then(res => { caches.open(CACHE).then(c => c.put('./index.html', res.clone())); return res; })
+    e.respondWith(fetch(req, { cache: 'no-cache' }).then(res => { caches.open(CACHE).then(c => c.put('./index.html', res.clone())); return res; })
       .catch(() => caches.match('./index.html')));
     return;
   }
