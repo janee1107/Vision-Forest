@@ -1,5 +1,5 @@
 // 願景之森：離線快取。更新 App 內容時，把版本號 +1 即可讓手機抓到新版。
-const CACHE = 'vision-forest-v7';
+const CACHE = 'vision-forest-v8';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
